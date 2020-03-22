@@ -6,8 +6,12 @@ postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: /images/zp_400x400.jpg
 ---
+`let name = 'Zachary';`
+
+`console.log(Hello World! I'm ${name} and this is my site);`
+
 ```javascript
-let name = 'Zachary'
+let name = 'Zachary';
 console.log(`Hello World! I'm ${name} and this is my site`);
 ```
 
@@ -25,5 +29,4 @@ Node.js & Express.js
 
 [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) like fetch and service workers
 
-Netlify / Static Site Generators:
-[Eleventy / 11ty](https://www.11ty.dev/) by [@zachleat](https://twitter.com/zachleat) and [Hylia](https://github.com/hankchizljaw/hylia) by [@hankchizljaw](https://twitter.com/hankchizljaw) - This site uses both of these!
+Netlify / Static Site Generators: [Eleventy / 11ty](https://www.11ty.dev/) by [@zachleat](https://twitter.com/zachleat) and [Hylia](https://github.com/hankchizljaw/hylia) by [@hankchizljaw](https://twitter.com/hankchizljaw) - This site uses both of these!
