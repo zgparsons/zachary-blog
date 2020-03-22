@@ -4,7 +4,9 @@ title: Sum All Numbers in a Range
 metaTitle: Sum All Numbers in a Range - Free Code Camp Solution and Walkthrough
 date: 2020-01-10T13:42:41.619Z
 tags:
-  - 100DaysOfCode FreeCodeCamp blog
+  - 100DaysOfCode
+  - FreeCodeCamp
+  - blog
 ---
 From the FreeCodeCamp Intermediate Algorithms Challenges:
 
@@ -42,15 +44,15 @@ My Solution:
 ```javascript
 function sumAll(arr) {
   arr.sort( (a, b) => a - b );
-  let num = arr\[1\] - 1;
-  let list = \[\];
-  while (num > arr\[0\]) {
+  let num = arr[1] - 1;
+  let list = [];
+  while (num > arr[0]) {
     list.push(num);
     num--;
   }
   let fullArr = arr.concat(list);
   return fullArr.reduce( (x, y) => x + y );
 }
-sumAll(\[1, 4\]);
+sumAll([1, 4]);
 // 10
 ```
