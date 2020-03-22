@@ -6,6 +6,7 @@ postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: /images/zp_400x400.jpg
 ---
+
 ```javascript
 let name = 'Zachary';
 console.log(`Hello World! I'm ${name} and this is my site`);
@@ -17,7 +18,7 @@ Some of the things I am learning about at the moment are:
 
 HTML CSS / SASS
 
-Templating engines for HTML - such as [.md](https://www.markdownguide.org/) and [.njk](https://mozilla.github.io/nunjucks/)
+Templating engines for HTML - such as [.njk](https://mozilla.github.io/nunjucks/), and also using [.md](https://www.markdownguide.org/) to more easily write blog posts
 
 JavaScript
 
