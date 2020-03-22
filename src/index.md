@@ -6,10 +6,6 @@ postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: /images/zp_400x400.jpg
 ---
-`let name = 'Zachary';`
-
-`console.log(Hello World! I'm ${name} and this is my site);`
-
 ```javascript
 let name = 'Zachary';
 console.log(`Hello World! I'm ${name} and this is my site`);
