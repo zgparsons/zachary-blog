@@ -1,67 +1,130 @@
 ---
 layout: layouts/post.njk
-title: Search & Replace
-metaTitle: Search and Replace - Free Code Camp Solution and Walkthrough
-date: 2020-01-16T00:00:00.000Z
+title: DNA Pairing
+metaTitle: DNA Pairing - Free Code Camp Solution and Walkthrough
+date: 2020-01-17T00:00:00.000Z
 tags:
   - 100DaysOfCode
   - FreeCodeCamp
   - blog
 ---
-From the FreeCodeCamp Intermediate Algorithms Challenges,
-[here](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace):
+From the FreeCodeCamp intermediate algorithms [here](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/dna-pairing):
 
-> Perform a search and replace on the sentence using the arguments
-> provided and return the new sentence. First argument is the sentence
-> to perform the search and replace on. Second argument is the word that
-> you will be replacing (before). Third argument is what you will be
-> replacing the second argument with (after).
+> The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array.
 > 
-> FreeCodeCamp – [Search & Replace](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace)
+> Base [pairs](http://en.wikipedia.org/wiki/Base_pair) are a pair of AT and CG. Match the missing element to the provided character.
+> 
+> Return the provided character as the first element in each array. For example, for the input GCG, return \[\[“G”, “C”\], \[“C”,”G”\],\[“G”, “C”\]\].  
+> The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+> 
+> FreeCodeCamp – [DNA Pairing](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/dna-pairing)
 
-This is the seventh of 21 ‘Intermediate Algorithm Scripting’
-lessons/challenges on FreeCodeCamp. That means I’m a third of the way
-through this section\!
+Although I was able to get this one done fairly quickly I don’t think I’ll be relied upon by DNA scientists for my algorithm writing any time soon 😂…
 
-I’ve not really written too much about this one… it’s further practice
-with regular expressions and with both string and array methods. All of
-which is great practice.
+I’ve no doubt there will be a better way to do this but I decided to break the given string into an array of characters, and then check each item individually (with a for loop) and replace that item (using the splice method) with an array of the correct pairing.
 
-Looking back 👀 at my code I can see that:
+Sting.split(”) places each character into an array. So then for ‘CGC’, we would have \[‘C’, ‘G’, ‘C’\].
 
-  - I split the given sentence into an array of words.
-  - I checked each word in the array to see if it matched the given
-    ‘before’ variable.
-      - If it did match I assigned it to a new variable called ‘word’.
-      - Then I checked to see if it had a capital letter at the
-        beginning by using a regular expression test.
-          - If it did I created a new string called ‘afterCap’ for the
-            given ‘after’ word and assigned it the word but with a
-            capital letter.
-      - I then used the splice method to replace the ‘before’ word with
-        either the given ‘after’ word or the ‘afterCap’ word based on if
-        the ‘before’ word had a capital or not.
-  - Finally I returned the array as a string by using the join method.
+And then the for loop goes through each element and checks via a set of ‘if, else’ statements the letter and then acts according to it. Like this:
 
-👍
+`if (arr[i] == 'G') {  
+arr.splice(i, 1, ['G', 'C']);  
+} else if (arr[i] == 'C') {  
+arr.splice(i, 1, ['C', 'G']);  
+}` etc.
 
-My solution:
+So for the first entry of the array: \[‘C’, ‘G’, ‘C’\] which is ‘C’, a .splice() method is used to remove that entry and in its place insert a nested array of \[‘C’, ‘G’\]. The method needs to take the following parameters to have the desired effect:
+
+`arr.splice(i, 1, ['C', 'G'])`
+
+The parameters do the work and make sure it’s done in the correct place. They are separated by commas, so this call has three arguments. What they mean here is:
+
+1.  from the i’th element (according to the for loop),
+2.  a count of one element needs to be removed and
+3.  replaced by \[‘C’, ‘G’\].
+
+At this point the array is now \[\[‘C’, ‘G’\], ‘G’, ‘C’\]. And the for loop will begin again with i’s value increased by one. And so on the next round it will check ‘G’ and replace this using a similar splice method, and so on until the for loop is finished because i has reached the value of the original array’s length.
+
+Thinking about it now a more concise way to write this code would have been to use a switch statement instead of a series of if / else if statements. And an even more concise way would be to use the map method. Here are all three solutions:
+
+My original solution:
 
 ```javascript
-function myReplace(str, before, after) {
-  let sentence = str.split(' ');
-  for (let i = 0; i < sentence.length; i++) {
-    if (sentence[i] == before) {
-      let word = sentence[i];
-      if (/[A-Z]/.test(word[0])) {
-        let afterCap = after.charAt(0).toUpperCase() + after.slice(1);
-        sentence.splice(i,1,afterCap);
-      } else {
-        sentence.splice(i,1,after);
-      }
+function pairElement(str) {
+  let arr = str.split('');
+  for (let i = 0; i < arr.length; i++) {
+    if (arr\[i\] == 'G') {
+      arr.splice(i, 1, \['G', 'C'\]);
+    } else if (arr\[i\] == 'C') {
+      arr.splice(i, 1, \['C', 'G'\]);
+    } else if (arr\[i\] == 'A') {
+      arr.splice(i, 1, \['A', 'T'\]);
+    } else if (arr\[i\] == 'T') {
+      arr.splice(i, 1, \['T', 'A'\]);
     }
   }
-  return sentence.join(' ');
+  return arr;
 }
-myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
+
+pairElement("GCG");
 ```
+
+FreeCodeCamp solutions, one with a switch statement, and the other with the map method:
+
+```javascript
+// 1 - with switch statement
+
+function pairElement(str) {
+  // Return each strand as an array of two elements, the original and the pair.
+  var paired = \[\];
+
+  // Function to check with strand to pair.
+  var search = function(char) {
+    switch (char) {
+      case "A":
+        paired.push(\["A", "T"\]);
+        break;
+      case "T":
+        paired.push(\["T", "A"\]);
+        break;
+      case "C":
+        paired.push(\["C", "G"\]);
+        break;
+      case "G":
+        paired.push(\["G", "C"\]);
+        break;
+    }
+  };
+
+  // Loops through the input and pair.
+  for (var i = 0; i < str.length; i++) {
+    search(str\[i\]);
+  }
+
+  return paired;
+}
+
+// test here
+pairElement("GCG");
+
+// 2 - with object & map method
+
+function pairElement(str) {
+  //create object for pair lookup
+  var pairs = {
+    A: "T",
+    T: "A",
+    C: "G",
+    G: "C"
+  };
+  //split string into array of characters
+  var arr = str.split("");
+  //map character to array of character and matching pair
+  return arr.map(x => \[x, pairs\[x\]\]);
+}
+
+//test here
+pairElement("GCG");
+```
+
+More information about the FreeCodeCamp solutions can be found [here](https://www.freecodecamp.org/forum/t/freecodecamp-challenge-guide-dna-pairing/16009).
