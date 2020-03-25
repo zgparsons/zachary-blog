@@ -6,6 +6,7 @@ date: 2020-01-22T13:42:41.619Z
 tags:
   - 100DaysOfCode
   - FreeCodeCamp
+  - Intermediate Algorithms
   - blog
 ---
 From the FreeCodeCamp intermediate algorithms [here](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-primes):
@@ -18,7 +19,7 @@ From the FreeCodeCamp intermediate algorithms [here](https://www.freecodecamp.or
 
 Although I'm not great at maths, I am aware of prime numbers... And so I didn't think this would be quite so hard as it actually turned out to be!
 
-My approach (I'm sure there are others, many better I've no doubt) involved writing a function which would check whether or not a number was prime. Then using a for loop to go through the numbers from 0 to 'num' (the given number from the function argument), checking each one for [primality](https://en.wikipedia.org/wiki/Primality_test), and then adding those that are prime to an array. Once I had this array all I'd need to do is run a `.reduce()` method with a function that would add each array entry to the next. A bit like I had done in the [previous challenge](/sum-all-odd-fibonacci-numbers/).
+My approach (I'm sure there are others, many better I've no doubt) involved writing a function which would check whether or not a number was prime. Then using a for loop to go through the numbers from 0 to 'num' (the given number from the function argument), checking each one for [primality](https://en.wikipedia.org/wiki/Primality_test), and then adding those that are prime to an array. Once I had this array all I'd need to do is run a `.reduce()` method with a function that would add each array entry to the next. A bit like I had done in the [previous challenge](/posts/sum-all-odd-fibonacci-numbers/).
 
 
 Simple right?

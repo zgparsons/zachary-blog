@@ -14,6 +14,8 @@ socialImage: /images/zp_400x400.jpg
 
 🧙‍♂️ JavaScript
 
+📝 Git & Github
+
 🚂 Templating engines for HTML - such as [.njk](https://mozilla.github.io/nunjucks/), and also using [.md](https://www.markdownguide.org/) to more easily write blog posts
 
 👨‍💻 Node.js & Express.js

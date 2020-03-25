@@ -6,6 +6,7 @@ date: 2020-01-16T00:00:00.000Z
 tags:
   - 100DaysOfCode
   - FreeCodeCamp
+  - Intermediate Algorithms
   - blog
 ---
 From the FreeCodeCamp Intermediate Algorithms Challenges,
@@ -17,7 +18,8 @@ From the FreeCodeCamp Intermediate Algorithms Challenges,
 > you will be replacing (before). Third argument is what you will be
 > replacing the second argument with (after).
 > 
-> FreeCodeCamp – [Search & Replace](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace)
+> FreeCodeCamp – [Search &
+ Replace](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace)
 
 This is the seventh of 21 ‘Intermediate Algorithm Scripting’
 lessons/challenges on FreeCodeCamp. That means I’m a third of the way

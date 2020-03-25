@@ -6,6 +6,7 @@ date: 2020-02-03T13:42:41.619Z
 tags:
   - 100DaysOfCode
   - FreeCodeCamp
+  - Intermediate Algorithms
   - blog
 ---
 From the FreeCodeCamp intermediate algorithms [here](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional):

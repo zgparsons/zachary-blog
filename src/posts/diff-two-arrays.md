@@ -6,6 +6,7 @@ date: 2020-01-11T13:42:41.619Z
 tags:
   - 100DaysOfCode
   - FreeCodeCamp
+  - Intermediate Algorithms
   - blog
 ---
 From the FreeCodeCamp Intermediate Algorithms Challenges:
