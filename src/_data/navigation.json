@@ -6,13 +6,17 @@
       "external": false
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/zgparsons",
-      "external": true
+      "text": "Posts",
+      "url": "https://zblog.netlify.com/archive/"
     },
     {
       "text": "Twitter",
       "url": "https://twitter.com/originalzedders",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/zgparsons",
       "external": true
     }
   ]
