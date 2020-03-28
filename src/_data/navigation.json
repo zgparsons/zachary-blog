@@ -14,6 +14,10 @@
       "text": "Twitter",
       "url": "https://twitter.com/originalzedders",
       "external": true
+    },
+    {
+      "text": "Posts",
+      "url": "https://zblog.netlify.com/archive/"
     }
   ]
 }
