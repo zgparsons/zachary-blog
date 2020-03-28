@@ -6,7 +6,7 @@ postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: /images/zp_400x400.jpg
 ---
-👨‍🎓📈 Some of the things I am learning:
+👨‍🎓📈 Some of the things I'm learning:
 
 <sub>🧱 HTML | 🎨 CSS / SASS | 🧙‍♂️ JavaScript</sub>
 
