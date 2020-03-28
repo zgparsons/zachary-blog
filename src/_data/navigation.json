@@ -6,9 +6,8 @@
       "external": false
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/zgparsons",
-      "external": true
+      "text": "Posts",
+      "url": "https://zblog.netlify.com/archive/"
     },
     {
       "text": "Twitter",
@@ -16,8 +15,9 @@
       "external": true
     },
     {
-      "text": "Posts",
-      "url": "https://zblog.netlify.com/archive/"
+      "text": "GitHub",
+      "url": "https://github.com/zgparsons",
+      "external": true
     }
   ]
 }
