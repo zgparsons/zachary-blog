@@ -56,6 +56,20 @@ The package.json file provides project-level control over which packages are bei
 
 This section mainly focuses on Express. Express is a web framework for Node, which is a JavaScript run time environment....
 
+## MongoDb and Mongoose
+
+---
+
 ## The Projects
 
-For each starter code is provided on Glitch, but honestly this is only to ensure while completing the challenge you don't get overwhelmed or held back by the details of implementation such as correctly configuring express.js, other dependencies and packages, and the design and aesthetics (all of which are important - but they quickly pile up and become too much to focus on for a learner).
+For each the starter code is provided on Glitch, but honestly this is only to ensure while completing the challenge you don't get overwhelmed or held back by the details of implementation such as correctly configuring express.js, other dependencies and packages, and the design and aesthetics (all of which are important - but they quickly pile up and become too much to focus on for a learner).
+
+### Timestamp
+
+### Request Header Parser
+
+### URL Shortener
+
+### Exercise Tracker
+
+### File Metadata
