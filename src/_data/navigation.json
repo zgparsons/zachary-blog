@@ -10,6 +10,10 @@
       "url": "https://zblog.netlify.com/archive/"
     },
     {
+      "text": "Projects",
+      "url": "/projects"
+    },
+    {
       "text": "Twitter",
       "url": "https://twitter.com/originalzedders",
       "external": true
