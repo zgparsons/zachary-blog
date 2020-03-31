@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Projects
-permalink: /projects
+permalink: /projects/index.html
 metaTitle: Zachary Parsons - Web Dev Projects
 ---
 These are the projects which I have worked on. Many of them have been completed while I have been teaching myself how to become a developer. As I learn and create more, I will add further projects on this page.
