@@ -6,10 +6,9 @@ metaTitle: Zachary Parsons - Web Dev Projects
 ---
 These are the projects which I have worked on. Many of them have been completed while I have been teaching myself how to become a developer. As I learn and create more, I will add further projects on this page.
 
-🔗
-[APIs and Microservices - 300 hours](/projects/#heading-apis-and-microservices)
-[Responsive Web Design - 300 hours](/projects/#heading-responsive-web-design)
-[JavaScript Algorithms and Data Structures - 300 hours](/projects/#heading-javascript-algorithms-and-data-structures)
+[APIs and Microservices - 300 hours](/projects/#heading-apis-and-microservices-300-hours)
+[Responsive Web Design - 300 hours](/projects/#heading-responsive-web-design-300-hours)
+[JavaScript Algorithms and Data Structures - 300 hours](/projects/#heading-javascript-algorithms-and-data-structures-300-hours)
 
 ---
 
