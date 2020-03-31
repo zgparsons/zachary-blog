@@ -8,21 +8,21 @@ These are the projects which I have worked on. Many of them have been completed 
 
 ---
 
-### Responsive Web Design
-<sup>300 Hours</sup>
+### Responsive Web Design <sub><sup>- 300 Hours</sup></sub>
 The projects which are embedded via [my CodePen](https://codepen.io/originalzedders) are front-end development focused, and have been completed as part of obtaining the freeCodeCamp [Responsive Web Design Certification](https://www.freecodecamp.org/certification/zparsons/responsive-web-design) which I was awarded in February this year.
 
 ---
 
-### APIs and Microservices
-<sup>300 Hours</sup>
-The projects which are embedded via [my Glitch](https://glitch.com/@zgparsons/free-code-camp-z) are back-end development focused and have been completed as part of obtaining the freeCodeCamp [APIs and Microservices Certification](https://www.freecodecamp.org/certification/zparsons/apis-and-microservices) which I was awarded in March this year.
+### APIs and Microservices <sub><sup>- 300 Hours</sup></sub>
+The projects which are embedded via [my Glitch](https://glitch.com/@zgparsons/free-code-camp-z) are back-end development focused and have been completed as part of obtaining the freeCodeCamp [APIs and Microservices Certification](https://www.freecodecamp.org/certification/zparsons/apis-and-microservices) which I was awarded in March this year. The projects use a Node.js environment and Express.js as a web framework.
 
 ---
 
-### JavaScript Algorithms and Data Structures
-<sup>300 Hours</sup>
-There are also posts on this website which I wrote while I was completing the lessons and challenges / projects to obtain the [Javascript Algorithms and Data Structures Certification](https://www.freecodecamp.org/certification/zparsons/javascript-algorithms-and-data-structures) too. Those posts can be found [here](/tags/intermediate%20algorithms/).
+### JavaScript Algorithms and Data Structures <sub><sup>- 300 Hours</sup></sub>
+There are also posts on this website which I wrote while I was completing the lessons and challenges / projects to obtain the [Javascript Algorithms and Data Structures Certification](https://www.freecodecamp.org/certification/zparsons/javascript-algorithms-and-data-structures) too.
+These challenges and projects focused on JavaScript and included modules in Basic JavaScript, ES6, Regular Expressions, Debugging, Object Oriented Programming, Functional Programming and Algorithm Scripting. I was awarded this certifcation in February this year.
+
+Those posts can be found [here](/tags/intermediate%20algorithms/).
 
 ---
 
