@@ -16,35 +16,37 @@ The projects which are embedded via [my CodePen](https://codepen.io/originalzedd
 ### APIs and Microservices
 The projects which are embedded via [my Glitch](https://glitch.com/@zgparsons/free-code-camp-z) are back-end development focused and have been completed as part of obtaining the freeCodeCamp [APIs and Microservices Certification](https://www.freecodecamp.org/certification/zparsons/apis-and-microservices) which I was awarded in March this year.
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="abzMgmw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Portfolio - Zachary Parsons">
+---
+
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="abzMgmw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Portfolio - Zachary Parsons">
   <span>See the Pen <a href="https://codepen.io/originalzedders/pen/abzMgmw">
   FCC: Portfolio - Zachary Parsons</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="wvBORXd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Technical Documentation">
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="wvBORXd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Technical Documentation">
   <span>See the Pen <a href="https://codepen.io/originalzedders/pen/wvBORXd">
   FCC: Technical Documentation</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="LYPgaxR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Survey Form">
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="LYPgaxR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Survey Form">
   <span>See the Pen <a href="https://codepen.io/originalzedders/pen/LYPgaxR">
   FCC: Survey Form</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="WNePLVq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Product Landing Page">
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="result" data-user="originalzedders" data-slug-hash="WNePLVq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Product Landing Page">
   <span>See the Pen <a href="https://codepen.io/originalzedders/pen/WNePLVq">
   FCC: Product Landing Page</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script> 
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="originalzedders" data-slug-hash="NWKverq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Ernest Hemingway Tribute Page by Z">
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="html,result" data-user="originalzedders" data-slug-hash="NWKverq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Ernest Hemingway Tribute Page by Z">
   <span>See the Pen <a href="https://codepen.io/originalzedders/pen/NWKverq">
   FCC: Ernest Hemingway Tribute Page by Z</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
