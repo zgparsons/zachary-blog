@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: APIs and Microservices
 metaTitle: APIs and Microservices - My experience completing the Free Code Camp module.
-date: 2020-05-01T13:42:00.000Z
+date: 2020-01-04T14:42:00.000Z
 tags:
   - 100DaysOfCode
   - FreeCodeCamp
@@ -11,7 +11,19 @@ tags:
 ---
 This is a post about my experience of completing the Free Code Camp Certification - [APIs and Microservices](https://www.freecodecamp.org/learn/apis-and-microservices/).
 
-<sub><sup>There are also a group of posts on this blog about my experience completing the [Intermediate Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) in Javascript too. Those posts can be found [here](/tags/intermediate-algorithms/).</sup></sub>
+<sub><sup>There are also a group of posts on this blog about my experience completing the Free Code Camp [Intermediate Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) in Javascript certificate too. Those posts can be found [here](/tags/intermediate-algorithms/).</sup></sub>
+
+My certificate:
+
+<iframe src="https://www.freecodecamp.org/certification/zparsons/apis-and-microservices"
+        width="100%" height="500" frameborder="0"
+        allowfullscreen sandbox>
+  <p> 
+    <a href="https://www.freecodecamp.org/certification/zparsons/apis-and-microservices">
+       Fallback link for browsers that don't support iframes
+    </a>
+  </p>
+</iframe>
 
 According to the Free Code Camp website this certification is about 300 hours of work. There are 4 sections which need to be completed to earn the Free Code Camp APIs and Microservices certification. These sections are:
 
@@ -117,6 +129,20 @@ This section provides a good overview of them both, and runs you through some ch
 
 For each the starter code is provided on Glitch, but honestly this is only to ensure while completing the challenge you don't get overwhelmed or held back by the details of implementation such as correctly configuring express.js, other dependencies and packages, and the design and aesthetics (all of which are important - but they quickly pile up and become too much to focus on for a learner).
 
+My submission for each of the projects is embedded below - I won't go into detail about each one because this is already a long post. Some of these are more challenging than others - the exercise tracker probably has the most functionality attached to it, as well as needing the most complex database. They are all doable - all you need is to put in some time, research the right sites (some helpful links below), [ask questions](https://www.freecodecamp.org/forum/t/apis-and-microservices-projects-exercise-tracker/364236/7), and don't give up!
+
+If you read this and want to ask me specifics about any of the projects (or anything else) - [send me a tweet 👋](https://twitter.com/originalzedders), as that's where I'm most likely to be, and follow me there too!
+
+##### Helpful Links - Projects Below ⬇
+[MongoDB Docs](https://docs.mongodb.com/)
+[Mongoose Docs](https://mongoosejs.com/docs/guide.html)
+[Full Node & Express Tutorial - Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
+[FCC Forum - Topic about Exercise Tracker Project](https://www.freecodecamp.org/forum/t/exercise-tracker-project-start-up-error/359929)
+[FCC Forum - Curriculum Help & Certification Projects](https://www.freecodecamp.org/forum/c/curriculum-help/certification-projects/510)
+[Stack Overflow](https://stackoverflow.com/)
+[Google 😅](https://google.com)
+
+
 ### Timestamp Microservice
 
 [z-timestamp.glitch.me](https://z-timestamp.glitch.me/) - Link to project (embedded project below)
@@ -132,6 +158,8 @@ For each the starter code is provided on Glitch, but honestly this is only to en
 
 ### Request Header Parser
 
+[z-header-parse.glitch.me](https://z-header-parse.glitch.me/) - Link to project (embedded project below)
+
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
     src="https://glitch.com/embed/#!/embed/z-header-parse?path=README.md&previewSize=0&sidebarCollapsed=true"
@@ -142,6 +170,8 @@ For each the starter code is provided on Glitch, but honestly this is only to en
 </div>
 
 ### URL Shortener Microservice
+
+[z-link.glitch.me](https://z-link.glitch.me/) - Link to project (embedded project below)
 
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
@@ -154,6 +184,8 @@ For each the starter code is provided on Glitch, but honestly this is only to en
 
 ### Exercise Tracker
 
+[z-exercise.glitch.me](https://z-exercise.glitch.me/) - Link to project (embedded project below)
+
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
     src="https://glitch.com/embed/#!/embed/z-exercise?path=README.md&previewSize=0&sidebarCollapsed=true"
@@ -165,6 +197,8 @@ For each the starter code is provided on Glitch, but honestly this is only to en
 
 ### File Metadata Microservice
 
+[z-file-metadata.glitch.me](https://z-file-metadata.glitch.me/) - Link to project (embedded project below)
+
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
     src="https://glitch.com/embed/#!/embed/z-file-metadata?path=README.md&previewSize=0&sidebarCollapsed=true"
@@ -173,3 +207,7 @@ For each the starter code is provided on Glitch, but honestly this is only to en
     style="height: 100%; width: 100%; border: 0;">
   </iframe>
 </div>
+
+---
+
+If you made it all the way down here - thanks for reading! [Tell me what you think...](https://twitter.com/originalzedders) and here's some cake: 🍰
