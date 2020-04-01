@@ -69,11 +69,14 @@ Really what this means is you can run JavaScript outside of a web browser. Prior
 
 I found it interesting to compare framework tag lines while writing this post:
 
-> Django: The Web Framework for Perfectionists with Deadlines [Django](https://www.djangoproject.com/)
+> Django: The Web Framework for Perfectionists with Deadlines
+[Django](https://www.djangoproject.com/)
 >
-> Laravel: The PHP Framework for Web Artisans [Laravel](https://laravel.com/)
+> Laravel: The PHP Framework for Web Artisans
+[Laravel](https://laravel.com/)
 >
-> Express: Fast, unopinionated, minimalist web framework for Node.js [Express](https://expressjs.com/)
+> Express: Fast, unopinionated, minimalist web framework for Node.js
+[Express](https://expressjs.com/)
 
 *'Unopinionated'*... What does it mean for a web framework to be unopinionated? Good question. What this means is that Express does not mind how you complete your task - or put differently there are multiple ways to complete the same task and Express will allow them.
 
