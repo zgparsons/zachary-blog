@@ -11,7 +11,7 @@ tags:
 ---
 This is a post about my experience of completing the Free Code Camp Certification - [APIs and Microservices](https://www.freecodecamp.org/learn/apis-and-microservices/).
 
-There are also a group of posts on this blog about my experience completing the [Intermediate Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) in Javascript too. Those posts can be found [here](/tags/intermediate-algorithms/).
+<sub><sup>There are also a group of posts on this blog about my experience completing the [Intermediate Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) in Javascript too. Those posts can be found [here](/tags/intermediate-algorithms/).</sup></sub>
 
 According to the Free Code Camp website this certification is about 300 hours of work. There are 4 sections which need to be completed to earn the Free Code Camp APIs and Microservices certification. These sections are:
 
@@ -56,7 +56,7 @@ The package.json file provides project-level control over which packages are bei
 
 ## Basic Node and Express
 
-This section mainly focuses on Express. Express is a web framework for Node - more on this in a minute.
+This section mainly focuses on Express. Express is a web application framework for Node - more on this in a minute.
 
 __First, Node.__
 [Node](https://nodejs.org/en/) is a JavaScript run time environment. This means that by using Node it is possible to write server-side scripts (rather than just client-side, which you can do with regular [vanilla](http://vanilla-js.com/) flavoured JS).
@@ -64,12 +64,35 @@ __First, Node.__
 Really what this means is you can run JavaScript outside of a web browser. Prior to Node a web application needed a programming language for server-side scripts (which may have been Python, PHP, or Ruby for example, but which couldn't be JavaScript), and then JavaScript could be used for client-side scripts to provide additional functionality after the web application had already been served to the user.
 
 __Next, Express.__
+[Express](https://expressjs.com/) is a web application framework for Node. It's equivalent to Django in Python, or Laravel in PHP. These are essentially sets of pre-written code (in each respective language) which help to reduce complexity for developers while they are creating web apps. In other words web frameworks like express are a form of [abstraction](https://developer.mozilla.org/en-US/docs/Glossary/Abstraction) for every day developers.
+
+I found it interesting to compare framework tag lines while writing this post:
+
+> Django: The Web Framework for Perfectionists with Deadlines
+> [Django](https://www.djangoproject.com/)
+
+> Laravel: The PHP Framework for Web Artisans
+> [Laravel](https://laravel.com/)
+
+> Express: Fast, unopinionated, minimalist web framework for Node.js
+> [Express](https://expressjs.com/)
+
+_'Unopinionated'_...
+What does it mean for a web framework to be unopinionated? Good question. What this means is that Express does not mind how you complete your task - or put differently there are multiple ways to complete the same task and Express will allow them.
+
+In contrast an _opinionated_ web framework will often expect a particular task to be done in a particular way - and might make it more difficult to be done in a different way. Often this is because, in a specific domain, it makes much more sense to be done in this way. So 'opionated' does not equal restrictive or worse usually, just a tool for a specific job.
+
+There is some more information on the [MDN Node / Express tutorial page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction), along with another great introduction to Node and Express.
+
+The FreeCodeCamp tutorials focus on Express - which is great because a working knowledge of Express is enough to begin building web applications and (simple) APIs. The lessons covered include starting an express server, serving static files, creating routes, get parameter inputs from routes and queries, and parsing data sent via POST requests.
 
 ---
 
 ## MongoDb and Mongoose
 
-In order to create an API, or a Microservice, which is truly useful (it could be useful to someone who wants [cat photos on demand 🐱](https://cataas.com/cat/says/hello%20world!)...) you will need some form of storage, and a relatively straightforward way to access that storage. MongoDB is the former, and Mongoose the latter.
+In order to create an API, or a Microservice, which is truly useful you will need some form of storage, and a relatively straightforward way to access that storage. MongoDB is the former, and Mongoose the latter.
+
+Even if the API is very simple, it could still be useful. For example a Cat image API would be useful to someone who wants [cat photos on demand 🐱](https://cataas.com/cat/says/hello%20world!)...
 
 MongoDB is a ['NoSQL'](https://www.mongodb.com/nosql-explained) storage system, or database. And [Mongoose](https://mongoosejs.com/) is 'object modelling' for Mongo - it makes it easier to model the data you have into a human readable format, in this case into objects. Mongo and Mongoose are popular amongst JavaScript devs because of their use of JSON as a document storage structure - so as the fcc tutorial says:
 
