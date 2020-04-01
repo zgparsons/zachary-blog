@@ -18,11 +18,13 @@ These are the projects which I have worked on. Many of them have been completed 
 
 ## 📰 Newz
 [https://newz.netlify.app](https://newz.netlify.app)
+
 Basic filterable news web app. Utilising [News API](https://newsapi.org/), vanilla css & js, and deployed to Netlify via [this Github repository](https://github.com/zgparsons/news).
 😃 With help from [this tutorial](https://www.youtube.com/watch?v=gcx-3qi7t7c)
 
 ## 😻 Meowz
 [https://meowz.herokuapp.com](https://meowz.herokuapp.com)
+
 A (very) basic Twitter feed app which lets users post a 'mew'... instead of a tweet.
 😃 Made with help from [this live stream](https://www.youtube.com/watch?v=JnEH9tYLxLk&t=4651s)
 
