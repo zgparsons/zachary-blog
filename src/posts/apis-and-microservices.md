@@ -46,7 +46,7 @@ If you don't know already NPM stands for Node Package Manager, and that's exactl
 
 This Stack Overflow [answer](https://stackoverflow.com/a/20008966) sums it up quite well:
 
-```
+```javascript
 Shapes             <- Package name
   - Circle.js      <-
   - Rectangle.js   <- Modules that belong to the Shapes package
