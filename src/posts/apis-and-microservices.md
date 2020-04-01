@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: APIs and Microservices
 metaTitle: APIs and Microservices - My experience completing the Free Code Camp module.
-date: 2020-01-04T14:42:00.000Z
+date: 2020-04-01T13:42:00.000Z
 tags:
   - 100DaysOfCode
   - FreeCodeCamp
@@ -32,7 +32,7 @@ According to the Free Code Camp website this certification is about 300 hours of
 
 As you can see the fourth section is the part which takes up the majority of the 300 hours. This is self-directed learning. There is no hand holding. Well not much - but more about that later. Below is a quick run through of my experience of completing each of the sections.
 
-Each section involves using a [🎏Glitch](https://glitch.com/@zgparsons/free-code-camp) project, each have varying degrees of starter code within them, but which allow you to focus on the subject being taught at that moment. <sub><sup>The Glitch link above is a link to my own completed APIs and Microservices collection of apps/projects.</sup></sub>
+Each section involves using a [🎏Glitch](https://glitch.com/@zgparsons) project, each have varying degrees of starter code within them, but which allow you to focus on the subject being taught at that moment.
 
 - - -
 
