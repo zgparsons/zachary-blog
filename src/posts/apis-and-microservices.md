@@ -13,7 +13,7 @@ This is a post about my experience of completing the Free Code Camp Certificatio
 
 <sub><sup>There are also a group of posts on this blog about my experience completing the Free Code Camp [Intermediate Algorithm Scripting](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) in Javascript certificate too. Those posts can be found [here](/tags/intermediate-algorithms/).</sup></sub>
 
-My certificate:
+My certificate 👨‍🎓🐱‍🏍👇
 
 ![Zachary Parsons - APIs and Microservices Certificate from Free Code Camp](/images/z-parsons-fcc-apis-certificate.png)
 
