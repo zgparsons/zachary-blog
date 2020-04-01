@@ -2,6 +2,10 @@
 layout: layouts/post.njk
 title: APIs and Microservices
 metaTitle: APIs and Microservices - My experience completing the Free Code Camp module.
+metaDesc: >-
+  A post about the Free Code Camp certification for APIs and Microservices -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
+socialImage: /images/apis-microservices-post-zp.png
 date: 2020-04-01T13:42:00.000Z
 tags:
   - 100DaysOfCode
