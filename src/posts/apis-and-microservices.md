@@ -117,12 +117,59 @@ This section provides a good overview of them both, and runs you through some ch
 
 For each the starter code is provided on Glitch, but honestly this is only to ensure while completing the challenge you don't get overwhelmed or held back by the details of implementation such as correctly configuring express.js, other dependencies and packages, and the design and aesthetics (all of which are important - but they quickly pile up and become too much to focus on for a learner).
 
-### Timestamp
+### Timestamp Microservice
+
+[z-timestamp.glitch.me](https://z-timestamp.glitch.me/) - Link to project (embedded project below)
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/z-timestamp?path=README.md&previewSize=0&sidebarCollapsed=true"
+    title="z-timestamp on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 
 ### Request Header Parser
 
-### URL Shortener
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/z-header-parse?path=README.md&previewSize=0&sidebarCollapsed=true"
+    title="z-header-parse on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+### URL Shortener Microservice
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/z-link?path=README.md&previewSize=0&sidebarCollapsed=true"
+    title="z-link on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 
 ### Exercise Tracker
 
-### File Metadata
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/z-exercise?path=README.md&previewSize=0&sidebarCollapsed=true"
+    title="z-exercise on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+### File Metadata Microservice
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/z-file-metadata?path=README.md&previewSize=0&sidebarCollapsed=true"
+    title="z-file-metadata on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
