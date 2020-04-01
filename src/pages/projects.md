@@ -6,15 +6,43 @@ metaTitle: Zachary Parsons - Web Dev Projects
 ---
 These are the projects which I have worked on. Many of them have been completed while I have been teaching myself how to become a developer. As I learn and create more, I will add further projects on this page.
 
+[Personal Projects](/projects/#heading-personal-projects)
 [APIs and Microservices - 300 hours](/projects/#heading-apis-and-microservices-300-hours)
 [Responsive Web Design - 300 hours](/projects/#heading-responsive-web-design-300-hours)
 [JavaScript Algorithms and Data Structures - 300 hours](/projects/#heading-javascript-algorithms-and-data-structures-300-hours)
+
+
+---
+
+### Personal Projects
+
+## 📰 Newz
+[https://newz.netlify.app](https://newz.netlify.app)
+
+Basic filterable news web app. Utilising [News API](https://newsapi.org/), vanilla css & js, and deployed to Netlify via [this Github repository](https://github.com/zgparsons/news).
+😃 With help from [this tutorial](https://www.youtube.com/watch?v=gcx-3qi7t7c)
+
+## 😻 Meowz
+[https://meowz.herokuapp.com](https://meowz.herokuapp.com)
+
+A (very) basic Twitter feed app which lets users post a 'mew'... instead of a tweet.
+😃 Made with help from [this live stream](https://www.youtube.com/watch?v=JnEH9tYLxLk&t=4651s)
 
 ---
 
 
 ### APIs and Microservices <sub><sup>- 300 Hours</sup></sub>
 The projects below which are embedded via [my Glitch](https://glitch.com/@zgparsons/free-code-camp-z) are back-end development focused and have been completed as part of obtaining the freeCodeCamp [APIs and Microservices Certification](https://www.freecodecamp.org/certification/zparsons/apis-and-microservices) which I was awarded in March this year. The projects use a Node.js environment and Express.js as a web framework.
+
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/z-file-metadata?path=README.md&previewSize=0"
+    title="z-file-metadata on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
