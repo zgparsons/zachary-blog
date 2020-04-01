@@ -27,10 +27,10 @@ My certificate:
 
 According to the Free Code Camp website this certification is about 300 hours of work. There are 4 sections which need to be completed to earn the Free Code Camp APIs and Microservices certification. These sections are:
 
-* Managing Packages with Npm
-* Basic Node and Express
-* MongoDB and Mongoose
-* APIs and Microservices Projects
+* Managing Packages with Npm - [🔗](/#heading-managing-packages-with-npm)
+* Basic Node and Express - [🔗](/#heading-basic-node-and-express)
+* MongoDB and Mongoose - [🔗](/#heading-mongodb-and-mongoose)
+* APIs and Microservices Projects - [🔗](/#heading-the-projects)
 
   * Timestamp Microservice
   * Request Header Parser Microservice
