@@ -4,8 +4,7 @@ title: Colophon
 permalink: /colophon/index.html
 metaTitle: Zachary Parsons - Colophon
 ---
-
-Type - [Lato](https://fonts.google.com/specimen/Lato) & System Fonts.
+Type - [Lora](https://fonts.google.com/specimen/Lora) & System Fonts.
 
 Written mostly using the markdown editor in [Visual Studio Code](https://code.visualstudio.com/). Committed and pushed to [GitHub](https://github.com/) from the VS Code terminal. Sometimes written in the [Netlify CMS](https://www.netlifycms.org/) markdown editor and published from there.
 
