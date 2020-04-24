@@ -1,0 +1,23 @@
+<div class="bg-highlight color-primary-shade pad-left-500 pad-top-500 pad-bottom-500 text-400">
+    <p>Monitoring:
+        {{ monitoring.url }}</p>
+    <p>Status:
+        {{ monitoring.status }}
+        </p>
+    <div class="pad-left-600 pad-bottom-500">
+        <ul class="text-300">
+            <li>Key:</li>
+            <li>0 - paused</li>
+            <li>1 - not checked yet</li>
+            <li>2 - up</li>
+            <li>8 - seems down</li>
+            <li>9 - down</li>
+        </ul>
+    </div>
+    <p>Checked at:
+        {{ monitoring.time }}, on
+        {{ monitoring.date }}</p>
+    <p class="text-300">
+        This report uses concepts from this <a href="https://www.11ty.dev/docs/quicktips/eliminate-js/" class="color-primary-glare">11ty.dev quick tip</a>, and is updated each time a build occurs on Netlify.
+    </p>
+</div>

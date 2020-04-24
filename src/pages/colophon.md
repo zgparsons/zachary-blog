@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/colophon.njk
 title: Colophon
 permalink: /colophon/index.html
 metaTitle: Zachary Parsons - Colophon
@@ -12,5 +12,6 @@ Built using [Eleventy](https://www.11ty.dev/), and graciously making use of [Hyl
 
 The site also uses [Goat Counter](https://www.goatcounter.com/).
 <sub><sup>[On GitHub](https://github.com/zgoat/goatcounter): 'Simple web statistics. No tracking of personal data.'.</sup></sub>
+
 
 [@](https://twitter.com/originalzedders) me to suggest things or improve the site.
