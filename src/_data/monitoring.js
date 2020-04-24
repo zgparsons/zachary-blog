@@ -6,7 +6,7 @@ const key = 'ur912122-86ff145aba7ac93f57fdd971'; // Read-only API key. Can be us
 
 // Get date and time:
 let today = new Date();
-let date = `${today.getDate()}-${today.getMonth()+1}-${today.getFullYear()}`;
+let date = `${today.getUTCDate()}-${today.getUTCMonth()+1}-${today.getUTCFullYear()}`;
 let time = `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
 
 function getCacheKey() {

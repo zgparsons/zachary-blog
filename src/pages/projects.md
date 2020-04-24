@@ -16,9 +16,15 @@ These are the projects which I have worked on. Many of them have been completed 
 
 - - -
 
-### Personal Projects
+## Personal Projects
 
-## 🌞 Weather App
+### 🚀 DevSites
+
+<https://devsites.netlify.app>
+
+Useful resources for Web Devs.
+
+### 🌞 Weather App
 
 <https://codepen.io/originalzedders/pen/MWwMaOo>
 
@@ -26,13 +32,13 @@ A frontend project which uses HTML, CSS and JavaScript to create a single-page i
 
 The app also shows a different, but relevant photo, for each search - this features uses [Unsplash Source](https://source.unsplash.com/) and JavaScript to request, and correctly display the image. There is also an option to change the colour theme - which uses CSS variables and JavaScript to be achieved.
 
-## 📰 Newz
+### 📰 Newz
 
 <https://newz.netlify.app>
 
 Basic filterable news web app. Utilising [News API](https://newsapi.org/), vanilla css & js, and deployed to Netlify via [this Github repository](https://github.com/zgparsons/news). 😃 With help from [this tutorial](https://www.youtube.com/watch?v=gcx-3qi7t7c)
 
-## 😻 Meowz
+### 😻 Meowz
 
 <https://meowz.herokuapp.com>
 
