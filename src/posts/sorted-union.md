@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Sorted Union
 metaTitle: Sorted Union - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Sorted Union -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-19T13:42:41.619Z
 tags:
   - 100DaysOfCode

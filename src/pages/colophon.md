@@ -3,6 +3,7 @@ layout: layouts/colophon.njk
 title: Colophon
 permalink: /colophon/index.html
 metaTitle: Zachary Parsons - Colophon
+metaDesc: Colophon for Zachary Parsons' personal website.
 ---
 Type - [Lora](https://fonts.google.com/specimen/Lora) & System Fonts.
 

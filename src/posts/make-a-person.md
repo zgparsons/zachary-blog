@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Make A Person
 metaTitle: Make A Person - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Make a Person -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-02-05T13:42:41.619Z
 tags:
   - 100DaysOfCode

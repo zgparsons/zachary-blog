@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Everything Be True
 metaTitle: Everything Be True - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Everything Be True -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-29T13:42:41.619Z
 tags:
   - 100DaysOfCode

@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: DNA Pairing
 metaTitle: DNA Pairing - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem DNA Pairing -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-17T00:00:00.000Z
 tags:
   - 100DaysOfCode

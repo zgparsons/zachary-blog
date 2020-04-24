@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: Projects
 permalink: /projects/index.html
 metaTitle: Zachary Parsons - Web Dev Projects
+metaDesc: Web dev projects created by Zachary Parsons. APIs and Microservices, Responsive Web Design and Javascript Algorithms and Data Structures.
 ---
 These are the projects which I have worked on. Many of them have been completed while I have been teaching myself how to become a developer. As I learn and create more, I will add further projects on this page.
 

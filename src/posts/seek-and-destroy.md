@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Seek And Destroy
 metaTitle: Seek And Destroy - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Seek and Destroy -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-12T13:42:41.619Z
 tags:
   - 100DaysOfCode

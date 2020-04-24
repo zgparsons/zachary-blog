@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Convert HTML Entities
 metaTitle: Convert HTML Entities - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Convert HTML Entities -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-20T13:42:41.619Z
 tags:
   - 100DaysOfCode

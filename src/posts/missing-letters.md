@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Missing Letters
 metaTitle: Missing Letters - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Missing Letters -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-18T13:42:41.619Z
 tags:
   - 100DaysOfCode

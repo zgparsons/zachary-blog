@@ -1,6 +1,9 @@
 ---
 title: How to Remove .html from URLs
 description: A short description of how to remove the '.html' file extension from URLs
+metaTitle: How to Remove .html from URLs - zacharyparsons.co.uk
+metaDesc: A post about how to remove .html from URLs while using a Static Site Generator -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-04-15
 tags:
   - How To

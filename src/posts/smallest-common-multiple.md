@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Smallest Common Multiple
 metaTitle: Smallest Common Multiple - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Smallest Common Multiple -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-23T13:42:41.619Z
 tags:
   - 100DaysOfCode

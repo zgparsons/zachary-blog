@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Arguments Optional
 metaTitle: Arguments Optional - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Arguments Optional -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-02-03T13:42:41.619Z
 tags:
   - 100DaysOfCode

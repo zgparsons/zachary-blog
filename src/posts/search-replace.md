@@ -2,6 +2,8 @@
 layout: layouts/post.njk
 title: Search & Replace
 metaTitle: Search and Replace - Free Code Camp Solution and Walkthrough
+metaDesc: A post about the Free Code Camp problem Search and Replace -
+  written by Zachary Parsons and published at zacharyparsons.co.uk
 date: 2020-01-16T00:00:00.000Z
 tags:
   - 100DaysOfCode
