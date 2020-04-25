@@ -10,8 +10,6 @@ tags:
   - Jamstack
   - Static Sites
 ---
-# Static Site Generators
-
 ## The concept of a Static Site Generator
 
 You can create a static website. All you need is some HTML files. And you might also include a CSS file to give your pages style - to make them look interesting. You probably know this already... stick with it.
