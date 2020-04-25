@@ -6,15 +6,21 @@
           <article class="[ site-foot__details ] [ sf-flow measure-compact ]">
             <h2 class="font-base text-600">{{ site.name }}</h2>
             {{ site.shortDesc | markdownFilter | safe }}
-            <p>
-              <a href="/colophon" style="text-decoration: none;">Colophon</a>
-            </p>
+            <form netlify name="footer">
+              <label for="email-name">Get a short email when there's a new post:</label>
+              <br>
+              <input type="email" name="email-name" id="email-name" required aria-label="true" placeholder="hello@example.co" autocomplete="email">
+              <em class="form-note">No spam!</em>
+            </form>
           </article>
         </div>
       {% endif %}
       <div>
         {% set ariaLabel = 'footer navigation' %}
         {% include "partials/components/nav.njk" %}
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/colophon">Colophon</a><p></p></li>
+        </ul>
         <theme-toggle></theme-toggle>
       </div>
     </div>

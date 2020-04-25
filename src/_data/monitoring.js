@@ -41,7 +41,8 @@ module.exports = async function() {
                     date: date,
                     time: time
                 }
-            });
+            })
+            .catch(err => console.log(err));
         cache.setKey(cacheKey, newData);
         cache.save();
         return newData;

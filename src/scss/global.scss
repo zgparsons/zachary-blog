@@ -40,6 +40,26 @@ hr {
   margin: get-size(900) auto;
 }
 
+input {
+  background-color: #fff;
+  font: inherit;
+  border: 1px solid var(--color-text);
+  margin-top: .15rem;
+  padding: .5rem 1rem;
+  width: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+label {
+  font-weight: 600;
+}
+
+.form-note {
+  margin-top: .3rem;
+  font-size: .875rem;
+  line-height: 1.25;
+}
+
 /**
  * PROJECT IMPORTS
  */
