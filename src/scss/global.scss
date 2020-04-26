@@ -60,6 +60,24 @@ label {
   line-height: 1.25;
 }
 
+// Table border:
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid var(--color-text);
+}
+
+th {
+  padding: 0.4em;
+}
+td {
+  padding: 0.25em;
+  font-size: smaller;
+}
+
 /**
  * PROJECT IMPORTS
  */
