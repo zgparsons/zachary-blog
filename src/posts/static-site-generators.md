@@ -130,8 +130,8 @@ Putting each site through the lighthouse audit gives the following results.
 
 ### AlwaysBooks - WordPress site
 
-![Lighthouse Score for WordPress site](/images/alwaysbooks-lh.png)
+![Lighthouse Score for WordPress site](/images/alwaysbooks-lh.png "Lighthouse Score for WordPress site")
 
 ### Always Books - Static site
 
-![Lighthouse score for Static site](/images/ab-jamstack-lh.png)
+![Lighthouse score for Static site](/images/ab-jamstack-lh.png "Lighthouse score for Static site")
