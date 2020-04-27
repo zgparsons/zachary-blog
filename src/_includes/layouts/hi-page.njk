@@ -35,16 +35,22 @@
     <main id="main-content" tabindex="-1">
         <article class="[ post ] [ h-entry ]">
         {% include "partials/components/intro.njk" %}
-        <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+        
+        <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ta-center ] [ sf-flow ] [ e-content ]">
             {{ content | safe }}
+            <a class="button weight-bold" href="https://twitter.com/originalzedders">Twitter</a>
+            <a class="button weight-bold" href="https://github.com/zgparsons">Github</a>
+            <a class="button weight-bold" href="mailto:z.g.parsons@outlook.com">📧 Email</a>
+            {% include "partials/components/post-list.njk" %}
+            <a class="button weight-bold" href="/blog/">Visit the blog</a>
+            <div class="[ theme-toggle ] [ ta-center gap-top-500 ]">
+              <theme-toggle></theme-toggle>
+            </div>
         </div>
         </article>
-        <h4> Latest Posts </h4>
-        {% include "partials/components/post-list.njk" %}
     </main>
     {% endblock content %}
     {% set pageType = 'Page' %}
-    {% include "partials/global/site-foot.njk" %}
     {% block foot %}{% endblock %}
     <script type="module" src="/js/components/theme-toggle.js" async="async" defer="defer"></script>
     <script>
