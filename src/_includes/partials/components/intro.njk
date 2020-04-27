@@ -3,7 +3,9 @@
     {% if permalink == '/hi/index.html' %}
       <h1 class="[ intro__heading ] [ text-800 md:text-900 leading-tight ta-center ] [ p-name ]">{{ introHeading }}</h1>
       {% if introSummary %}
-        <div class="[ intro__summary ] [ sf-flow ] [ leading-mid ta-center ]">{{ introSummary | safe }}</div>
+        <div class="[ intro__summary ] [ sf-flow ] [ leading-mid ta-center ]">
+        {{ introSummary | safe }}
+        <p class="gap-top-base"><a href="/">🚀 Visit Homepage</p></div>
       {% endif %}
     {% else %}
       <h1 class="[ intro__heading{{ ' intro__heading--compact' if page.url === '/' }} ] [ text-800 md:text-900 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
