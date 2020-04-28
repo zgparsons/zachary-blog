@@ -59,7 +59,7 @@ In that example everything except for the main content, and the title, can stay 
 
 Rather than creating each HTML page for your site, you could instead use a single layout file. This would take care of the unchanging HTML. There are plenty of options, this site uses Nunjucks which is for JavaScript, but there is also jinja2 for Python, as well as language agnostic templating files too. Though it may be done differently, they each do the same thing really: preprocess HTML.
 
-```javascript
+```
 Preprocessing is a little bit off topic for this post (not much...).
 You can trust that it means taking more than one file
 and/or data source and outputting a pure HTML file.
@@ -79,9 +79,13 @@ For the same site as above that would look more like this:
   * about.md
   * projects.md
   * contact.md
-* styles -styles.css
+* styles
 
-To begin with it seems more complicated right? There is one more file, and another folder. However, each markdown file only contains the necessary content. Most likely just some front-matter (to include a title and meta description) and then the content itself. The nunjucks layout file is the only file which contains all of that HTML.
+  * styles.css
+
+To begin with it seems more complicated right? There is one more file, and another folder. However, each markdown file only contains the necessary content. Most likely just some front-matter (to include a title and meta description) and then the content itself.
+
+The nunjucks layout file is the only file which contains all of that HTML. Plus many sites will have more content than 4 simple pages.
 
 ### Multiple Layouts
 
@@ -102,21 +106,31 @@ If you wanted to have another set of pages (or posts) with a slightly different 
   * my-first-post.md
   * how-to-grapple-with-sparrows.md
   * 2035-the-year-in-review.md
-* styles -styles.css 
+* styles 
+
+  * styles.css 
 
 A Static Site Generator allows you to do exactly this. You give the HTML preprocessor mentioned above information about the layout (eg. base.njk), and information about the content (eg. about.md) and it gives you HTML for the browser (eg. about.html).
 
-The Static Site Generator abstracts this process away somewhat, allows you to add additional configuration, and is set up to watch any files for changes. Each time you hit the save button on one of the layout, content or data files the site's files are regenerated and available to view instantly.
+The Static Site Generator abstracts this process away somewhat, allows you to add additional configuration, and is set up to watch any files for changes. Each time you save the layout, content or data files (and run the build command) the site's files are regenerated and available to view instantly.
 
 The static site generator, as long as it's a good one, handles lots of files and quite complex layouts with ease.
 
 ## Who Wants a Static Site Anyway? Wordpress Exists...
 
-Well. Yes. But how good is Wordpress actually? Actually Wordpress, and other dynamic CMS, are a bit like static site generators. No - they are 'Dynamic Site Generators'. They generate the content from a set of templates and content files. Though the content is usually in a database. But they differ from static site generators by doing this 'on-the-fly', or dynamically, rather than before a user requests it.
+Well. Yes. But how good is Wordpress actually? Actually Wordpress (WP), and other dynamic Content Management Systems (CMS), are a bit similar to static site generators. No, that's misleading - they are more like 'Dynamic Site Generators'.
 
-Each time you visit a Wordpress site, or any site, you make a request to see that site. When it's a dynamic site, like WP, that request takes longer because the correct files are not sitting waiting to be served. They are instead created there and then. WP will grab the template from the files, grab the content from the database and then using that information will generate the page and display it.
+They generate the content from a set of templates and content files. Though the content is usually in a database. But they differ from static site generators by doing this 'on-the-fly', or dynamically at the request time, rather than before a user requests it (at build time, which might have been only a few minutes before the user arrived or since the last manual `git push`).
 
-When the same request is made to a static site, the file is already there, and is served immediately. In the case of a static site generator, the layout and the content had already been *generated* into HTML files when the site was built and deployed. This means a few things. The site is faster. It doesn't only feel faster, but it will be demonstrably snappier. The site is more secure. Serving a site statically does not need the server to perform much logic. This means that there is a much reduced chance of malicious code being injected. Not needing to contact a database similarly reduces this risk too.
+Each time you visit a website, you make a request to see that page. When it's a dynamic site, like WP, that request takes longer because the correct files are not sitting waiting to be served. They are instead created there and then. WP will grab the template from the files, grab the content from the database and then using that information will generate the page and display it.
+
+When the same request is made to a static site, the file is already there, and is served immediately. In the case of a static site generator, the layout and the content had already been *generated* into HTML files when the site was built and deployed. In fact it is most likely served from a Content Delivery Network (CDN) too.
+
+This means a few things:
+
+The site is faster. It doesn't only feel faster, but it will be demonstrably snappier. It's almost certainly served from a CDN, which means the files being served are literally closer to the user. There's no build time after the request is made, only prior to it. Because of that there's no logic to run, or authorisation to happen or anything similar.
+
+The site is more secure. Serving a site statically does not need the server to perform much logic. This means that there is a much reduced chance of malicious code being injected. Not needing to contact a database similarly reduces this risk too.
 
 ## Lighthouse Scores
 
