@@ -10,7 +10,7 @@ tags:
   - Jamstack
   - Static Sites
 ---
-[Skip to Lighthouse scores 🚀](#lighthouse-scores)
+[Skip to Lighthouse scores 🚀](#heading-lighthouse-scores)
 
 ## The concept of a Static Site Generator
 
