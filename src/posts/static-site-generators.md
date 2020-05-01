@@ -61,7 +61,7 @@ In that example everything except for the main content, and the title, can stay 
 
 Rather than creating each HTML page for your site, you could instead use a single layout file. This would take care of the unchanging HTML. There are plenty of options, this site uses Nunjucks which is for JavaScript, but there is also jinja2 for Python, as well as language agnostic templating files too. Though it may be done differently, they each do the same thing really: preprocess HTML.
 
-```
+```javascript
 Preprocessing is a little bit off topic for this post (not much...).
 You can trust that it means taking more than one file
 and/or data source and outputting a pure HTML file.
