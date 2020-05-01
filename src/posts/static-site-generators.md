@@ -137,7 +137,7 @@ The site is more secure. Serving a site statically does not need the server to p
 
 ## Lighthouse Scores
 
-To demonstrate this difference in speed we can look at the [lighthouse](https://web.dev) scores for comparable sites - one being 'dynamic' and the other 'static'.
+To demonstrate this difference in speed we can look at the [lighthouse↗](https://web.dev) scores for comparable sites - one being 'dynamic' and the other 'static'.
 
 For this example we can look at [AlwaysBooks.co.uk↗](https://alwaysbooks.co.uk), which is a WordPress book blog. The site is basic - it uses the WordPress default theme for speed and ease. It is *not* served by a CDN.
 
