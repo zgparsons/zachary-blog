@@ -3,8 +3,7 @@ title: Static Site Generators
 description: An introduction to Static Site Generators (SSGs)
 layout: layouts/post.njk
 metaTitle: Static Site Generators - An Introduction
-metaDesc: A post about Static Site Generators - written by Zachary Parsons and
-  published at zacharyparsons.co.uk
+metaDesc: A general introduction to Static Site Generators. This post covers what they are, and why they are a good choice for website devs - written by Zachary Parsons.
 date: 2020-05-01T00:00:00.000Z
 tags:
   - Jamstack
