@@ -10,7 +10,7 @@ tags:
   - Jamstack
   - Static Sites
 ---
-[Skip to Lighthouse scores 🚀](#heading-lighthouse-scores)
+[Skip to Lighthouse scores... 🚀](#heading-lighthouse-scores)
 
 ## The concept of a Static Site Generator
 
@@ -114,9 +114,10 @@ If you wanted to have another set of pages (or posts) with a slightly different 
 
 A Static Site Generator allows you to do exactly this. You give the HTML preprocessor mentioned above information about the layout (eg. base.njk), and information about the content (eg. about.md) and it gives you HTML for the browser (eg. about.html).
 
-The Static Site Generator abstracts this process away somewhat, allows you to add additional configuration, and is set up to watch any files for changes. Each time you save the layout, content or data files (and run the build command) the site's files are regenerated and available to view instantly.
+The Static Site Generator abstracts this process away somewhat, allows you to add additional configuration, and is usually set up locally to watch any files for changes. Each time you save the layout, content or data files (and run the build command) the site's files are regenerated and available to view instantly.
 
 The static site generator, as long as it's a good one, handles lots of files and quite complex layouts with ease.
+
 
 ## Who Wants a Static Site Anyway? Wordpress Exists...
 
@@ -138,9 +139,9 @@ The site is more secure. Serving a site statically does not need the server to p
 
 To demonstrate this difference in speed we can look at the [lighthouse](https://web.dev) scores for comparable sites - one being 'dynamic' and the other 'static'.
 
-For this example we can look at [AlwaysBooks.co.uk](https://alwaysbooks.co.uk), which is a WordPress book blog. The site is basic - it uses the WordPress default theme for speed and ease.
+For this example we can look at [AlwaysBooks.co.uk↗](https://alwaysbooks.co.uk), which is a WordPress book blog. The site is basic - it uses the WordPress default theme for speed and ease. It is *not* served by a CDN.
 
-While exploring the JAMstack - this book blogger used the content from Always Books to test out the [Eleventy base blog](https://github.com/11ty/eleventy-base-blog). The result of which can be viewed at [abac-jamstack.netlify.app](https://abac-jamstack.netlify.app/).
+While exploring the JAMstack - this book blogger used the content from Always Books to test out the [Eleventy base blog↗](https://github.com/11ty/eleventy-base-blog). The result of which can be viewed at [abac-jamstack.netlify.app↗](https://abac-jamstack.netlify.app/).
 
 Putting each site through the lighthouse audit gives the following results.
 
@@ -151,3 +152,13 @@ Putting each site through the lighthouse audit gives the following results.
 ### Always Books - Static site
 
 ![Lighthouse score for Static site](/images/ab-jamstack-lh.png "Lighthouse score for Static site")
+
+## What Static Site Generator to use
+
+Each generator will be useful for different cases. This site uses [eleventy↗](https://11ty.dev), which is a great all-rounder, and especially good for small sites or blogs.
+
+Eleventy (or 11ty) has recently been used by the Californian government to create their [Covid-19 response website↗](https://covid19.ca.gov/), and you can find a 'leaderboard' of 11ty built sites on the [11ty website↗](https://www.11ty.dev/leaderboard/).
+
+You can find a comprehensive [list of open source static site generators↗](https://www.staticgen.com/) at StaticGen.
+
+If there are errors or anything I can add / amend here, or to discuss, please contact me [on Twitter🐤↗](https://twitter.com/originalzedders).
