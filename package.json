@@ -10,13 +10,15 @@
     "@tbranyen/jsdom": "^13.0.0",
     "axios": "^0.19.2",
     "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
     "html-minifier": "^4.0.0",
     "json-to-scss": "^1.5.0",
     "request": "^2.88.2",
     "sass": "^1.26.3",
     "semver": "^7.2.1",
     "slugify": "^1.4.0",
-    "stalfos": "github:hankchizljaw/stalfos#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
+    "stalfos": "github:hankchizljaw/stalfos#c8971d22726326cfc04089b2da4d51eeb1ebb0eb",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "@erquhart/rollup-plugin-node-builtins": "^2.1.5",

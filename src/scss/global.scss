@@ -78,6 +78,27 @@ td {
   font-size: smaller;
 }
 
+.wrapper {
+  max-width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 8rem), 2fr));
+  grid-gap: 1rem;
+}
+
+.book-cover {
+  height: 170px;
+}
+
+.low-line-height {
+  line-height: 1.25;
+}
+
 /**
  * PROJECT IMPORTS
  */
