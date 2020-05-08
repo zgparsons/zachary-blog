@@ -3,11 +3,11 @@
     {% for book in bookshelf %}
         <li>
             {% if '/nophoto/' in book.image_url %}
-            <p><img height='125px' src="https://images.randomhouse.com/cover/{{ book.isbn }}"></p>
+            <p><img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt=""></p>
             {% else %}
-            <p><img height='125px' src={{book.image_url}} alt=""></p>
+            <p><img class="book-cover" src={{book.image_url}} alt=""></p>
             {% endif %}
-            <p class="text-500">{{book.title}}</p>
+            <p class="text-300">{{book.title}}</p>
             <p class="text-300">{{book.author}}</p>
             <p><a href={{book.link}}>Link</a></p>
             <p class="text-500">Rating: {{book.rating}}</p>

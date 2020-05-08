@@ -24,6 +24,7 @@ module.exports = async function() {
                 for (let i=0; i < bookList.length; i++) {
                     books.push({
                         title: bookList[i].book[0].title[0],
+                        spinal_title: spinalCase(bookList[i].book[0].title[0]),
                         author: bookList[i].book[0].authors[0].author[0].name[0],
                         isbn: bookList[i].book[0].isbn[0],
                         image_url: bookList[i].book[0].image_url[0],
@@ -37,6 +38,13 @@ module.exports = async function() {
                 }
             })
         }).catch(err => console.log(err));
-    console.log(books[8].isbn);
     return books;
 }
+
+function spinalCase(str) {
+    str = str.replace(/:/g,'');
+    return str
+      .split(/\s|_|(?=[A-Z])/)
+      .join("-")
+      .toLowerCase();
+  }
