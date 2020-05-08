@@ -1,8 +1,10 @@
 const dotenv = require('dotenv');
 dotenv.config();
+
 const fetch = require('node-fetch');
 const xml2js = require('xml2js');
 
+// GoodReads:
 const key = process.env.GRKEY;
 const id = 41056081;
 
@@ -16,12 +18,10 @@ module.exports = async function() {
             xml2js.parseString(body, function (err, res) {
                 if (err) console.log(err);
                 console.log('Getting Book List from GoodReads API');
-                // console.log(res.GoodreadsResponse.reviews[0].review)
-                // console.log(res.GoodreadsResponse.reviews[0].review[0])
-                // console.log(res.GoodreadsResponse.reviews[0].review[0].book)
                 
                 let bookList = res.GoodreadsResponse.reviews[0].review;
                 for (let i=0; i < bookList.length; i++) {
+
                     books.push({
                         title: bookList[i].book[0].title[0],
                         spinal_title: spinalCase(bookList[i].book[0].title[0]),
@@ -38,6 +38,7 @@ module.exports = async function() {
                 }
             })
         }).catch(err => console.log(err));
+
     return books;
 }
 

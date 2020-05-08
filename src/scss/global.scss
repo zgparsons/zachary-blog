@@ -87,12 +87,16 @@ td {
 
 .auto-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 16rem), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 8rem), 2fr));
   grid-gap: 1rem;
 }
 
 .book-cover {
-  height: 150px;
+  height: 170px;
+}
+
+.low-line-height {
+  line-height: 1.25;
 }
 
 /**

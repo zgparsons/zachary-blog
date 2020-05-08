@@ -2,15 +2,21 @@
     <ul class="auto-grid">
     {% for book in bookshelf %}
         <li>
-            {% if '/nophoto/' in book.image_url %}
-            <p><img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt=""></p>
-            {% else %}
-            <p><img class="book-cover" src={{book.image_url}} alt=""></p>
-            {% endif %}
-            <p class="text-300">{{book.title}}</p>
-            <p class="text-300">{{book.author}}</p>
-            <p><a href={{book.link}}>Link</a></p>
-            <p class="text-500">Rating: {{book.rating}}</p>
+            <div class="book">
+                {% if '/nophoto/' in book.image_url %}
+                <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt={{book.title}}>
+                {% else %}
+                <img class="book-cover" src={{book.image_url}} alt={{book.title}}>
+                {% endif %}
+                <p class="font-serif text-300 gap-top-300 low-line-height">{{book.title}}</h2>
+                <p class="text-300">{{book.author}}</p>
+                <p class="text-300">
+                {% for i in range(0, book.rating) %}
+                ⭐
+                {% endfor %}
+                </p>
+                <p class="text-300 gap-bottom-base"><a href={{book.link}}>On Goodreads↗ </a></p>
+            </div>
         </li>
     {% endfor %}
     </ul>
