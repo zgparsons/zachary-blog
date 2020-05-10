@@ -14,6 +14,10 @@
       "url": "/projects"
     },
     {
+      "text": "Bookshelf",
+      "url": "/bookshelf"
+    },
+    {
       "text": "Twitter",
       "url": "https://twitter.com/originalzedders",
       "external": true
@@ -22,10 +26,6 @@
       "text": "GitHub",
       "url": "https://github.com/zgparsons",
       "external": true
-    },
-    {
-      "text": "Bookshelf",
-      "url": "/bookshelf"
     }
   ]
 }
