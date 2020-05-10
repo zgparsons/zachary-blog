@@ -1,8 +1,8 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-const fetch = require('node-fetch');
 const xml2js = require('xml2js');
+const Cache = require("@11ty/eleventy-cache-assets");
 
 // GoodReads:
 const key = process.env.GRKEY;
@@ -12,14 +12,16 @@ module.exports = async function() {
 
     let books = [];
     
-    await fetch(`https://www.goodreads.com/review/list?v=2&id=${id}&shelf=read&key=${key}`)
-        .then(res => res.text())
-        .then(body => {
+    await Cache(`https://www.goodreads.com/review/list?v=2&id=${id}&shelf=read&key=${key}&per_page=200`, {
+        duration: "1d",
+        type: "text"
+    }).then(body => {
             xml2js.parseString(body, function (err, res) {
                 if (err) console.log(err);
                 console.log('Getting Book List from GoodReads API');
                 
                 let bookList = res.GoodreadsResponse.reviews[0].review;
+
                 for (let i=0; i < bookList.length; i++) {
 
                     books.push({
@@ -33,6 +35,7 @@ module.exports = async function() {
                         link: bookList[i].book[0].link[0],
                         date_started: bookList[i].date_added[0],
                         date_finished: bookList[i].read_at[0],
+                        date_updated: bookList[i].date_updated[0],
                         rating: bookList[i].rating[0]
                     })
                 }
