@@ -22,6 +22,10 @@
       "text": "GitHub",
       "url": "https://github.com/zgparsons",
       "external": true
+    },
+    {
+      "text": "Bookshelf",
+      "url": "/bookshelf"
     }
   ]
 }
