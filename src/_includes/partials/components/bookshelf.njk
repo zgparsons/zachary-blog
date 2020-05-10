@@ -30,7 +30,7 @@
         <li>
             <div class="book">
                 {% if '/nophoto/' in book.image_url %}
-                    <img class="book-cover" src="http://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg" alt={{book.title}}>
+                    <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg" alt={{book.title}}>
                 {% else %}
                     <img class="book-cover" src={{book.image_url}} alt={{book.title}}>
                 {% endif %}
