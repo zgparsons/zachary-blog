@@ -2,7 +2,7 @@
     <h2>2020</h2>
     <ul class="auto-grid gap-top-base">
     {% for book in bookshelf %}
-      {% if ('2020' in book.date_finished) or ('2020' in book.date_updated)  %}
+      {% if ('2020' in book.date_finished)  %}
         <li>
             <div class="book">
                 {% if '/nophoto/' in book.image_url %}
