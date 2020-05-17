@@ -12,9 +12,11 @@ tags:
   - blog
 ---
 
-Learning via [FreeCodeCamp Challenges↗](https://www.freecodecamp.org/learn/front-end-libraries/react/).
+Learning via [FreeCodeCamp Challenges ↗](https://www.freecodecamp.org/learn/front-end-libraries/react/).
 
-This is not all challenges, only those which I felt the need to note. It is code heavy (commented in places to show key concepts), and without much structure. With the code are the few key notes I made.
+This is not all challenges, only those which I felt the need to note. **This is not a "proper" post, it is more of a brain dump...**
+
+It is code heavy (commented in places to show key concepts), and without much structure. With the code are the few key notes I made.
 
 ### Notes on Learning React
 

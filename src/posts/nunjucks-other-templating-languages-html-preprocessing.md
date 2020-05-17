@@ -4,7 +4,7 @@ description: An introduction to Nunjucks, other templating languages and HTML pr
 metaTitle: An introduction to Nunjucks and HTML preprocessing
 metaDesc: A post about templating languages such as Nunjucks -
   written by Zachary Parsons and published at zacharyparsons.co.uk
-date: 2020-05-15
+date: 2020-06-01
 tags:
   - Jamstack
   - Static Sites
