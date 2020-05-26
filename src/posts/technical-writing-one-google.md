@@ -18,7 +18,9 @@ tags:
 <small>This will be the first of several posts about the Technical Writing course provided by Google. Together they will form a general overview of the course. They will each be tagged [Technical Writing](https://zacharyparsons.co.uk/tags/technical%20writing/).</small>
 
 <small>This particular post covers the first two units:
+
 1 - Just Enough Grammar (Optional Unit)
+
 2 - Words</small>
 
 <small>The course itself goes in to more detail in each topic, but these notes aim to be a brief review in order to better fortify the concepts covered.</small>
@@ -71,6 +73,7 @@ Words are the most important part of any writing. This is no different in techni
 This section of the course directs the reader on how they should correctly:
 
 __1. Define new or unfamiliar terms__
+
 You should be able to recognise when a term may be unfamiliar to all or some of your target audience and then define that term in one of two ways:
 
 - If it already exists, link to a good existing explanation.
@@ -79,6 +82,7 @@ You should be able to recognise when a term may be unfamiliar to all or some of 
 If the document you are writing is introducing many terms, collect the definitions into a glossary.
 
 __2. Use terms consistently__
+
 You should always apply the same unambiguous word or term consistently throughout your document. If you are introducing a term, be consistent with the use of that term.
   
 For example if your document introduces the term **floober**, continue to use that term throughout - do not begin referring to the same item or concept as a **flub** later on.
@@ -88,6 +92,7 @@ If you are clear when introducing a term (**floober**) that it is also known by 
 ><small>"Floobers (or flubs for short) are a state of mind..."</small>
 
 __3. Use acronyms properly__
+
 On initial use of an acronym, use the full term, followed by the acronym in parentheses. Use emphasis, such as **bold**, on both the term and the acronym.
 
 ><small>"A **Three Letter Acronym** (**TLA**) is an acronym that uses three letters."</small>
@@ -103,6 +108,7 @@ The course gives the following guidelines for using (or not using) acronyms:
   - The acronym appears many times in the document.
 
 __4. Disambiguate pronouns__
+
 Using a pronoun is a way of pointing to a previously introduced noun. Improper use of a pronoun can cause your writing to be difficult to interpret by the reader.
 
 In many cases you can simply avoid using a pronoun and reuse the original noun. That is not always the case though:
@@ -116,6 +122,7 @@ In general you should:
 - If introducing a second noun between the first noun and pronoun, reuse the original noun instead of using a pronoun.
 
 1 - 'It' and 'They', 'Them' and 'Their'
+
 These can cause a lot of confusion in technical writing. Here are two examples taken directly from the course:
 
 ><small>Python is interpreted, while C++ is compiled. **It** has an almost cult-like following.</small>
@@ -125,6 +132,7 @@ These can cause a lot of confusion in technical writing. Here are two examples t
 In the first example the use of the pronoun (in bold) could be referring to either of the other nouns. Similarly, in the second example the pronoun could be referring to either group of previously mentioned nouns.
 
 2 - 'This' and 'That'
+
 Use of 'this' and 'that' as pronouns can lead to ambiguous sentences. Replacing the use of 'this' or 'that' with the appropriate noun, or placing the appropriate noun immediately after the use of 'this' or 'that' can help to disambiguate sentences.
 
 This text is ambiguous:
