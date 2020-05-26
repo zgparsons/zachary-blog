@@ -17,11 +17,11 @@ tags:
 
 <small>This will be the first of several posts about the Technical Writing course provided by Google. Together they will form a general overview of the course. They will each be tagged [Technical Writing](https://zacharyparsons.co.uk/tags/technical%20writing/).</small>
 
-<small>This particular post covers the first two units:
+<small>This particular post covers the first two units:</small>
 
-1 - Just Enough Grammar (Optional Unit)
+<small>1 - Just Enough Grammar (Optional Unit)</small>
 
-2 - Words</small>
+<small>2 - Words</small>
 
 <small>The course itself goes in to more detail in each topic, but these notes aim to be a brief review in order to better fortify the concepts covered.</small>
 <small>There is also an in-class component which will not be covered here.</small>
