@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: "'Words' | Technical Writing One - Google"
+title: "'Words' - Technical Writing One - Google"
 metaTitle: "'Words' from Technical Writing One - Google - My experience
   completing the Google module."
 metaDesc: A post about completing the 'Words' section of the technical writing
