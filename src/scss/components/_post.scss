@@ -1,13 +1,13 @@
 .post {
   &__body {
-    --flow-space: #{get-size(800)};
+    --flow-space: #{get-size(600)};
 
     /**
      * Generic HTML styles 
      */
     h2 + *,
     h3 + * {
-      --flow-space: #{get-size(500)};
+      --flow-space: #{get-size(600)};
     }
 
     h2,

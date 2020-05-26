@@ -47,6 +47,8 @@ This post covers the first two learning outcomes:
 
 </div>
 
+---
+
 ## Just Enough Grammar (Optional Unit)
 
 An optional unit which covers the parts of speech and grammar relevant to the course.
@@ -65,6 +67,8 @@ It includes a short explanation and exercise for each of the following:
 | Transition| A word or phrase that connects two sentences | Sam runs races weekly. **However** he finishes races weakly. |
 
 The explanations and exercises for each are short and informative. They are worth the 5 - 10 minutes it takes to read this section.
+
+---
 
 ## Words
 

@@ -37,7 +37,7 @@ hr {
   max-width: 500px;
   background: var(--color-stroke);
   border: none;
-  margin: get-size(900) auto;
+  margin: get-size(900) auto !important;
 }
 
 input {
