@@ -6,7 +6,7 @@ metaTitle: "'Words' from Technical Writing One - Google - My experience
 metaDesc: A post about completing the 'Words' section of the technical writing
   one module provided by Google - written by Zachary Parsons
 socialImage: /images/glenn-carstens-peters-unsplash-words-post.jpg
-date: 2020-05-20T00:00:00.000Z
+date: 2020-05-26T12:19:04.383Z
 tags:
   - Technical Writing
   - Google
