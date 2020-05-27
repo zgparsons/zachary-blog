@@ -34,8 +34,7 @@ module.exports = async function() {
         })
             .then(res => res.json())
             .then(json => {
-                console.log(json.monitors[0].logs);
-
+                
                 let hours = Math.floor(json.monitors[0].logs[0].duration / 3600);
 
                 return {
