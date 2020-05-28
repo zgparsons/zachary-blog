@@ -4,7 +4,7 @@ title: "'Active Voice' - Technical Writing One - Google"
 metaTitle: "'Active Voice' from Technical Writing One - Google - My experience
   completing the Google module."
 metaDesc: A post about completing the 'Active Voice' section of the technical writing one module provided by Google - written by Zachary Parsons
-socialImage: 
+socialImage: /images/thought-catalog-unsplash-active-voice.jpg
 date: 2020-05-27
 tags:
   - Technical Writing
