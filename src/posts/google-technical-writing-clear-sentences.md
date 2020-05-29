@@ -10,6 +10,7 @@ tags:
   - Technical Writing
   - Google
   - blog
+excerpt: The aim in technical writing is to 'show the thing'.
 ---
 
 ## Introduction
@@ -48,9 +49,7 @@ This post covers the following learning outcomes:
 
 ><small>Comedy writers seek the funniest results, horror writers strive for the scariest, and technical writers aim for the clearest. In technical writing, clarity takes precedence over all other rules. This unit suggests a few ways to make your sentences beautifully clear.</small>
 
-<!-- Excerpt Start -->
 The aim in technical writing is to ['show the thing' ↗](https://gds.blog.gov.uk/2019/08/27/podcast-on-writing/).
-<!-- Excerpt End -->
 
 Clarity takes precedence over style and 'all other rules' - to ensure clarity you should not dress up the thing you are presenting. Don't use metaphors, and explain clearly what the thing is and how it works.
 

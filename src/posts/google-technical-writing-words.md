@@ -11,6 +11,7 @@ tags:
   - Technical Writing
   - Google
   - blog
+excerpt: Words are the most important part of any writing. This is no different in technical writing and documentation.
 ---
 
 ## Introduction
@@ -71,9 +72,9 @@ The explanations and exercises for each are short and informative. They are wort
 ---
 
 ## Words
-<!-- Excerpt Start -->
+
 Words are the most important part of any writing. This is no different in technical writing and documentation.
-<!-- Excerpt End -->
+
 This section of the course directs the reader on how they should correctly:
 
 __1. Define new or unfamiliar terms__
