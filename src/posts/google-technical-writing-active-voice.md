@@ -52,8 +52,9 @@ Sentences in technical writing should usually be written in active voice.
 
 ### How to Distinguish Active Voice from Passive Voice
 
+<!-- Excerpt Start -->
 In an active voice sentence, an actor acts on a target. In a passive voice sentence this formula is reversed.
-
+<!-- Excerpt End -->
 See the two formula below, followed by a basic example of each:
 
 ```javascript
