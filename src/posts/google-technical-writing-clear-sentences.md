@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: "'Clear Sentences' - Technical Writing One - Google"
 metaTitle: "'Clear Sentences' from Technical Writing One - Google - My experience
   completing the Google module."
-metaDesc: A post exploring the importance of writing 'Clear Sentences' in technical writing. It covers a section of the technical writing one module provided by Google - written by Zachary Parsons.
+metaDesc: A post exploring the importance of writing clear sentences in technical writing. It covers a section of the technical writing one module provided by Google - written by Zachary Parsons.
 socialImage: /images/cathryn-lavery-unsplash-clear-sentences.jpg
 date: 2020-05-28
 tags:
@@ -17,9 +17,9 @@ excerpt: The aim in technical writing is to 'show the thing'.
 
 <small>This is the third of several posts about the Technical Writing course provided by Google. They will each be tagged [Technical Writing](https://zacharyparsons.co.uk/tags/technical%20writing/).</small>
 
-<small>This particular post covers the fourth unit:</small>
+<small>This particular post covers the unit:</small>
 
-<small>4 - Clear Sentences</small>
+<small>Clear Sentences</small>
 
 <small>The course itself goes in to more detail in each topic, these notes aim to be a brief review in order to better fortify the concepts covered.</small>
 
