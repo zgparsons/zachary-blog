@@ -5,7 +5,7 @@ layout: layouts/post.njk
 metaTitle: An introduction to Nunjucks and HTML preprocessing
 metaDesc: A post about templating languages such as Nunjucks - written by
   Zachary Parsons and published at zacharyparsons.co.uk
-date: 2020-05-15T00:00:00.000Z
+date: 2020-10-01T00:00:00.000Z
 tags:
   - Jamstack
   - Static Sites
