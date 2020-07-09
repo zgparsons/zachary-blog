@@ -3,11 +3,13 @@ layout: layouts/page.njk
 title: Projects
 permalink: /projects/index.html
 metaTitle: Zachary Parsons - Web Dev Projects
-metaDesc: Web dev projects created by Zachary Parsons. APIs and Microservices, Responsive Web Design and Javascript Algorithms and Data Structures.
+metaDesc: Web dev projects created by Zachary Parsons. Front End Libraries, APIs and Microservices, Responsive Web Design and Javascript Algorithms and Data Structures.
 ---
 These are the projects which I have worked on. Many of them have been completed while I have been teaching myself how to become a developer. As I learn and create more, I will add further projects on this page.
 
 [Personal Projects](/projects/#heading-personal-projects)
+
+[Front End Libraries - 300 hours](/projects/#heading-front-end-libraries-300-hours)
 
 [APIs and Microservices - 300 hours](/projects/#heading-apis-and-microservices-300-hours)
 
@@ -64,9 +66,49 @@ A (very) basic Twitter feed app which lets users post a 'mew'... instead of a tw
 
 - - -
 
+### Front End Libraries <sub><sup>- 300 Hours</sup></sub>
+
+The projects below (embedded from my [Codepen ↗](https://codepen.io/originalzedders)) all make use of [React.js ↗](https://reactjs.org/) to create the UI. They have been completed while obtaining the freeCodeCamp [Front End Libraries Certification ↗](https://www.freecodecamp.org/certification/zparsons/front-end-libraries), which I obtained on the 5th June 2020.
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="originalzedders" data-slug-hash="vYNzMVe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Random Quote Generator - React - Z">
+  <span>See the Pen <a href="https://codepen.io/originalzedders/pen/vYNzMVe">
+  Random Quote Generator - React - Z</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p align="center">⬇</p>
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="originalzedders" data-slug-hash="mdeQqvd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Markdown Previewer - React - Z">
+  <span>See the Pen <a href="https://codepen.io/originalzedders/pen/mdeQqvd">
+  Markdown Previewer - React - Z</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p align="center">⬇</p>
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="originalzedders" data-slug-hash="RwWORpZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Calculator - React - Z">
+  <span>See the Pen <a href="https://codepen.io/originalzedders/pen/RwWORpZ">
+  Calculator - React - Z</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p align="center">⬇</p>
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="originalzedders" data-slug-hash="JjYxGVQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Drum Kit - React - Z">
+  <span>See the Pen <a href="https://codepen.io/originalzedders/pen/JjYxGVQ">
+  Drum Kit - React - Z</a> by z (<a href="https://codepen.io/originalzedders">@originalzedders</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+- - -
+
 ### APIs and Microservices <sub><sup>- 300 Hours</sup></sub>
 
-The projects below which are embedded via [my Glitch](https://glitch.com/@zgparsons/free-code-camp-z) are back-end development focused and have been completed as part of obtaining the freeCodeCamp [APIs and Microservices Certification](https://www.freecodecamp.org/certification/zparsons/apis-and-microservices) which I was awarded in March this year. The projects use a Node.js environment and Express.js as a web framework.
+The projects below which are embedded via [my Glitch ↗](https://glitch.com/@zgparsons/free-code-camp-z) are back-end development focused and have been completed as part of obtaining the freeCodeCamp [APIs and Microservices Certification ↗](https://www.freecodecamp.org/certification/zparsons/apis-and-microservices) which I was awarded in March this year. The projects use a Node.js environment and Express.js as a web framework.
 
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
