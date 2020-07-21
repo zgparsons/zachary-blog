@@ -5,12 +5,12 @@
       {% if ('2020' in book.date_finished)  %}
         <li>
             <div class="book">
-                {% if '/nophoto/' in book.image_url %}
+                {# {% if '/nophoto/' in book.image_url %}
                     <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt={{book.title}}>
                 {% else %}
                     <img class="book-cover" src={{book.image_url}} alt={{book.title}}>
-                {% endif %}
-                <p class="font-serif text-300 gap-top-300 low-line-height">{{book.title}}</h2>
+                {% endif %} #}
+                <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
                 <p class="text-300">{{book.author}}</p>
                 <p class="text-300">
                     {% for i in range(0, book.rating) %}
@@ -30,11 +30,11 @@
       {% if ('2019' in book.date_updated) or ('2015' in book.date_updated) %}
         <li>
             <div class="book">
-                {% if '/nophoto/' in book.image_url %}
+                {# {% if '/nophoto/' in book.image_url %}
                     <img class="book-cover" src="https://covers.openlibrary.org/b/isbn/{{ book.isbn }}-M.jpg" alt={{book.title}}>
                 {% else %}
                     <img class="book-cover" src={{book.image_url}} alt={{book.title}}>
-                {% endif %}
+                {% endif %} #}
                 <p class="font-serif text-300 gap-top-300 low-line-height">{{book.title}}</h2>
                 <p class="text-300">{{book.author}}</p>
                 <p class="text-300">
