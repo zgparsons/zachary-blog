@@ -52,6 +52,8 @@ The app also shows a different, but relevant photo, for each search - this featu
 
 ### 📰 Newz
 
+**😦😅 News API took away the ability to make free API calls from the browser... 🤑 Unfortunately this project no longer works properly!**
+
 <https://newz.netlify.app>
 
 Basic filterable news web app. Utilising [News API](https://newsapi.org/), vanilla css & js, and deployed to Netlify via [this Github repository](https://github.com/zgparsons/news). 😃 With help from [this tutorial](https://www.youtube.com/watch?v=gcx-3qi7t7c)
@@ -59,6 +61,8 @@ Basic filterable news web app. Utilising [News API](https://newsapi.org/), vanil
 <p align="center">⬇</p>
 
 ### 😻 Meowz
+
+**🔌🚫 Heroku disconnected the database - unfortunately this app is no longer functional!**
 
 <https://meowz.herokuapp.com>
 
