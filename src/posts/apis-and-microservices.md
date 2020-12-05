@@ -15,7 +15,7 @@ tags:
 ---
 This is a post about my experience of completing the Free Code Camp Certification - [APIs and Microservices ↗](https://www.freecodecamp.org/learn/apis-and-microservices/).
 
-<sub><sup>There are also a group of posts on this blog about my experience completing the Free Code Camp [Intermediate Algorithm Scripting ↗](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) in Javascript certificate too. Those posts can be found [here](/tags/intermediate-algorithms/).</sup></sub>
+<sub><sup>There are also a group of posts on this blog about my experience completing the Free Code Camp [Intermediate Algorithm Scripting ↗](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) in Javascript certificate too. Those posts can be found [here](tags/intermediate%20algorithms/).</sup></sub>
 
 My certificate 👨‍🎓🐱‍🏍👇
 
