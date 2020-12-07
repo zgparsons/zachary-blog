@@ -7,11 +7,11 @@ postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: /images/zp_400x400.jpg
 ---
-<sub>🧱 HTML | 🎨 CSS / SASS | 🧙‍♂️ JavaScript</sub>
+A Web Developer - Still Learning
 
-<sub>📝 Git & Github</sub>
 
-<sub>🔥 Netlify / Static Site Generators
-💻💪💥 [Eleventy  / 11ty](https://11ty.dev/) | 🚂 Templating engines for HTML - [.njk](https://mozilla.github.io/nunjucks/), also [.md](https://www.markdownguide.org/) to more easily write posts</sub>
+Recent makes:
 
-<sub>👨‍💻 Node.js & Express.js | 🛸 [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) like fetch and service workers</sub>
+[DevSites](https://devsites.netlify.app)
+
+[Bookshelf](/bookshelf)
