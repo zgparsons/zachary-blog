@@ -59,7 +59,7 @@ class ThemeToggle extends HTMLElement {
 
   setButtonLabelAndStatus(currentSetting) {
     this.modeToggleButton.innerText = `${
-      currentSetting === 'dark' ? '🌞 Light' : '🌚 Dark'
+      currentSetting === 'dark' ? 'Light' : 'Dark'
     }`;
     this.modeStatusElement.innerText = `Color mode is now "${currentSetting}"`;
   }

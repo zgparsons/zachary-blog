@@ -12,6 +12,6 @@ A Web Developer - Still Learning
 
 Recent makes:
 
-[DevSites](https://devsites.netlify.app)
+🚀[DevSites](https://devsites.netlify.app)
 
-[Bookshelf](/bookshelf)
+📚[Bookshelf](/bookshelf)
