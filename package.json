@@ -29,7 +29,7 @@
     "cross-env": "^7.0.2",
     "flat-cache": "^2.0.1",
     "make-dir-cli": "^2.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "prettier": "^2.0.5",
     "rollup": "^2.22.1",
     "rollup-plugin-commonjs": "^10.1.0",
