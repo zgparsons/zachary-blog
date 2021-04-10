@@ -6,9 +6,9 @@
         <li>
             <div class="book">
                 {% if '/nophoto/' in book.image_url %}
-                    <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt={{book.title}}>
+                    <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt="{{book.alt}}">
                 {% else %}
-                    <img class="book-cover" src={{book.image_url}} alt={{book.title}}>
+                    <img class="book-cover" src="{{book.image_url}}" alt="{{book.alt}}">
                 {% endif %}
                 <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
                 <p class="text-300">{{book.author}}</p>
@@ -18,12 +18,14 @@
                     {% endfor %}
                 </p>
                 <p class="text-300 gap-bottom-base gap-top-base"><a href={{book.link}}>On Goodreads ↗ </a></p>
-                <p class="text-300 gap-bottom-base"><a href="https://www.gov.uk/search-library-catalogue">Find your local Library (UK) ↗ </a></p>
             </div>
         </li>
       {% endif %}
     {% endfor %}
     </ul>
+    <div class="wrapper">
+        <p align="center" class="text-700 gap-top-base gap-bottom-base"><a href="https://www.gov.uk/search-library-catalogue">Find your local Library (UK) ↗ </a></p>
+    </div>
     <h2>2020</h2>
     <ul class="auto-grid gap-top-base">
     {% for book in bookshelf %}
@@ -31,9 +33,9 @@
         <li>
             <div class="book">
                 {% if '/nophoto/' in book.image_url %}
-                    <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt={{book.title}}>
+                    <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt="{{book.alt}}">
                 {% else %}
-                    <img class="book-cover" src={{book.image_url}} alt={{book.title}}>
+                    <img class="book-cover" src={{book.image_url}} alt="{{book.alt}}">
                 {% endif %}
                 <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
                 <p class="text-300">{{book.author}}</p>
@@ -43,12 +45,14 @@
                     {% endfor %}
                 </p>
                 <p class="text-300 gap-bottom-base gap-top-base"><a href={{book.link}}>On Goodreads ↗ </a></p>
-                <p class="text-300 gap-bottom-base"><a href="https://www.gov.uk/search-library-catalogue">Find your local Library (UK) ↗ </a></p>
             </div>
         </li>
       {% endif %}
     {% endfor %}
     </ul>
+    <div class="wrapper">
+        <p align="center" class="text-700 gap-top-base gap-bottom-base"><a href="https://www.gov.uk/search-library-catalogue">Find your local Library (UK) ↗ </a></p>
+    </div>
     <h2 class="gap-top-base">Pre-2020</h2>
     <ul class="auto-grid gap-top-base">
     {% for book in bookshelf %}

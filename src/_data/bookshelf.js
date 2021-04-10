@@ -27,6 +27,7 @@ module.exports = async function() {
                     books.push({
                         title: bookList[i].book[0].title[0],
                         spinal_title: spinalCase(bookList[i].book[0].title[0]),
+                        alt: removePunctuation(bookList[i].book[0].title[0]),
                         author: bookList[i].book[0].authors[0].author[0].name[0],
                         isbn: bookList[i].book[0].isbn[0],
                         image_url: bookList[i].book[0].image_url[0],
@@ -52,3 +53,8 @@ function spinalCase(str) {
       .join("-")
       .toLowerCase();
   }
+
+function removePunctuation(str) {
+    str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+    return str.replace(/\s{2,}/g," ");
+}
