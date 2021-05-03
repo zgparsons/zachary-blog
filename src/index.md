@@ -7,7 +7,7 @@ postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: /images/zp_400x400.jpg
 ---
-A Web Developer - Still Learning
+A Web Developer, Library Professional and [occassional book blogger](https://alwaysbooks.co.uk).
 
 
 Recent makes:
