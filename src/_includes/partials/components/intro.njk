@@ -10,7 +10,7 @@
     {% else %}
       <h1 class="[ intro__heading{{ ' intro__heading--compact' if page.url === '/' }} ] [ text-800 md:text-900 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
       {% if introSummary %}
-        <div class="[ intro__summary ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
+        <div class="[ intro__summary ] [ sf-flow ] [ leading-mid measure-long ]">{{ introSummary | safe }}</div>
       {% endif %}
     {% endif %}
   </div>

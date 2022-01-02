@@ -4,6 +4,8 @@
   &__summary {
     --flow-space: #{get-size(500)};
     font-size: get-size(500);
+    text-align: justify;
+    text-justify: inter-word;
 
     a {
       color: currentColor;

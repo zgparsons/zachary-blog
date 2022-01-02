@@ -1,14 +1,14 @@
 <div class="wrapper">
-    <h2>2021</h2>
+    <h2>2022</h2>
     <ul class="auto-grid gap-top-base">
     {% for book in bookshelf %}
-      {% if ('2021' in book.date_finished)  %}
+      {% if ('2022' in book.date_finished)  %}
         <li>
             <div class="book">
                 {% if '/nophoto/' in book.image_url %}
                     <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt="{{book.alt}}">
                 {% else %}
-                    <img class="book-cover" src="{{book.image_url}}" alt="{{book.alt}}">
+                    <img class="book-cover" src="{{book.large_image_url}}" alt="{{book.alt}}">
                 {% endif %}
                 <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
                 <p class="text-300">{{book.author}}</p>
@@ -18,6 +18,32 @@
                     {% endfor %}
                 </p>
                 <p class="text-300 gap-bottom-base gap-top-base"><a target="_blank" href={{book.link}}>On Goodreads ↗ </a></p>
+            </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    <h2>2021</h2>
+    <ul class="auto-grid gap-top-base">
+    {% for book in bookshelf %}
+      {% if ('2021' in book.date_finished)  %}
+        <li>
+            <div class="book">
+                {% if '/nophoto/' in book.image_url %}
+                    <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt="{{book.alt}}">
+                {% else %}
+                    <img class="book-cover" src="{{book.large_image_url}}" alt="{{book.alt}}">
+                {% endif %}
+                <div class="book-title-rating">
+                    <h3 class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h3>
+                    <p class="text-300">{{book.author}}</p>
+                    <p class="text-300">
+                        {% for i in range(0, book.rating) %}
+                            ⭐
+                        {% endfor %}
+                    </p>
+                    <p class="text-300 gap-bottom-base gap-top-base"><a target="_blank" href={{book.link}}>On Goodreads ↗ </a></p>
+                </div>
             </div>
         </li>
       {% endif %}
@@ -35,16 +61,18 @@
                 {% if '/nophoto/' in book.image_url %}
                     <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt="{{book.alt}}">
                 {% else %}
-                    <img class="book-cover" src={{book.image_url}} alt="{{book.alt}}">
+                    <img class="book-cover" src={{book.large_image_url}} alt="{{book.alt}}">
                 {% endif %}
-                <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
-                <p class="text-300">{{book.author}}</p>
-                <p class="text-300">
-                    {% for i in range(0, book.rating) %}
-                        ⭐
-                    {% endfor %}
-                </p>
-                <p class="text-300 gap-bottom-base gap-top-base"><a href={{book.link}}>On Goodreads ↗ </a></p>
+                <div class="book-title-rating">
+                    <h3 class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h3>
+                    <p class="text-300">{{book.author}}</p>
+                    <p class="text-300">
+                        {% for i in range(0, book.rating) %}
+                            ⭐
+                        {% endfor %}
+                    </p>
+                    <p class="text-300 gap-bottom-base gap-top-base"><a href={{book.link}}>On Goodreads ↗ </a></p>
+                </div>
             </div>
         </li>
       {% endif %}
@@ -64,7 +92,7 @@
                 {% else %}
                     <img class="book-cover" src={{book.image_url}} alt={{book.title}}>
                 {% endif %} #}
-                <p class="font-serif text-300 gap-top-300 low-line-height">{{book.title}}</h2>
+                <h3 class="font-serif text-300 gap-top-300 low-line-height">{{book.title}}</h3>
                 <p class="text-300">{{book.author}}</p>
                 <p class="text-300">
                     {% for i in range(0, book.rating) %}

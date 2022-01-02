@@ -32,7 +32,7 @@ module.exports = async function() {
                         isbn: bookList[i].book[0].isbn[0],
                         image_url: bookList[i].book[0].image_url[0],
                         small_image_url: bookList[i].book[0].image_url[0],
-                        large_image_url: bookList[i].book[0].large_image_url[0],
+                        large_image_url: bookList[i].book[0].image_url[0].replace('._SX98_', ''),
                         link: bookList[i].book[0].link[0],
                         date_started: bookList[i].date_added[0],
                         date_finished: bookList[i].read_at[0],
