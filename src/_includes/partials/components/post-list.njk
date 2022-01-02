@@ -12,6 +12,7 @@
               <p class="text-500 gap-top-300 weight-mid">
                 <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
               </p>
+              <p class="gap-top-300">{{ item.data.excerpt }}</p>
               <p class="gap-top-300">
               <a href="{{ item.url | url }}" aria-label="Read more on {{ item.data.title }}"><button class="button font-base text-base weight-bold">Read more</button></a>
               </p>
