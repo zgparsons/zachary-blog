@@ -10,14 +10,16 @@
                 {% else %}
                     <img class="book-cover" src="{{book.large_image_url}}" alt="{{book.alt}}">
                 {% endif %}
-                <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
-                <p class="text-300">{{book.author}}</p>
-                <p class="text-300">
-                    {% for i in range(0, book.rating) %}
-                        ⭐
-                    {% endfor %}
-                </p>
-                <p class="text-300 gap-bottom-base gap-top-base"><a target="_blank" href={{book.link}}>On Goodreads ↗ </a></p>
+                <div class="book-title-rating">
+                    <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
+                    <p class="text-300">{{book.author}}</p>
+                    <p class="text-300">
+                        {% for i in range(0, book.rating) %}
+                            ⭐
+                        {% endfor %}
+                    </p>
+                    <p class="text-300 gap-bottom-base gap-top-base"><a target="_blank" href={{book.link}}>On Goodreads ↗ </a></p>
+                </div>
             </div>
         </li>
       {% endif %}
