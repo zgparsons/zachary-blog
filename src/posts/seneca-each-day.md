@@ -12,14 +12,10 @@ tags:
 
 ## From Letter 2
 
->📆➕
->
 >"Each day acquire something which will help you to face poverty, or death, and other ills."
 
 
 
->📈📉📊
->
 >From Epicurus:
 >"A cheerful poverty is an honourable state."
 >
