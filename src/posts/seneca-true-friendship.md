@@ -8,6 +8,7 @@ date: 2022-01-02
 tags:
   - philosophy
   - blog
+draft: true
 ---
 
 ## From Letter 3
