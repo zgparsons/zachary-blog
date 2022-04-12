@@ -678,6 +678,7 @@ Styles can be set via CSS by adding `className` to JSX elements. Note the camel 
 You can also apply styles inline, but need to adhere to JSX syntax rather than HTML. The styles need to be applied as an object, and again with camelCase:
 
 ```jsx
+{% raw %}
 class Colorful extends React.Component {
   render() {
     return (
@@ -685,6 +686,7 @@ class Colorful extends React.Component {
     );
   }
 };
+{% endraw %}
 ```
 
 Styles can also be assigned to a const and referred to in the component:
