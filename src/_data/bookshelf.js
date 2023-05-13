@@ -36,13 +36,14 @@ module.exports = async function() {
                         link: bookList[i].book[0].link[0],
                         date_started: bookList[i].date_added[0],
                         date_finished: bookList[i].read_at[0],
+                        month_finished: new Date(`${bookList[i].read_at[0].substring(4,7)} 1, ${bookList[i].read_at[0].substring(bookList[i].read_at[0].length - 4)}`).toLocaleString('default', { month: 'long', year: 'numeric' }),
                         date_updated: bookList[i].date_updated[0],
                         rating: bookList[i].rating[0]
                     })
                 }
             })
         }).catch(err => console.log(err));
-
+    // console.log(books)
     return books;
 }
 
