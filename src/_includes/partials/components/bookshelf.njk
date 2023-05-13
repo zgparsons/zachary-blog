@@ -1,4 +1,31 @@
 <div class="wrapper">
+    <h2>2023</h2>
+    <ul class="auto-grid gap-top-base">
+    {% for book in bookshelf %}
+      {% if ('2023' in book.date_finished)  %}
+        <li>
+            <div class="book">
+                {% if '/nophoto/' in book.image_url %}
+                    <img class="book-cover" src="/images/book-covers/{{ book.spinal_title }}.jpg" alt="{{book.alt}}">
+                {% else %}
+                    <img class="book-cover" src="{{book.large_image_url}}" alt="{{book.alt}}">
+                {% endif %}
+                <div class="book-title-rating">
+                    <p class="font-serif text-base gap-top-300 low-line-height">{{book.title}}</h2>
+                    <p class="text-300">{{book.author}}</p>
+                    <p class="text-300">
+                        {% for i in range(0, book.rating) %}
+                            ⭐
+                        {% endfor %}
+                    </p>
+                    <p class="text-300 gap-bottom-base gap-top-base"><a target="_blank" href={{book.link}}>On Goodreads ↗ </a></p>
+                </div>
+            </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+
     <h2>2022</h2>
     <ul class="auto-grid gap-top-base">
     {% for book in bookshelf %}
