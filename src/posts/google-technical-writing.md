@@ -11,6 +11,7 @@ tags:
   - Google
   - blog
 excerpt: Words are the most important part of any writing. This is no different in technical writing and documentation.
+draft: True
 ---
 
 # Words
