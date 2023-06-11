@@ -6,14 +6,6 @@
       "external": false
     },
     {
-      "text": "Posts",
-      "url": "/blog/"
-    },
-    {
-      "text": "Projects",
-      "url": "/projects"
-    },
-    {
       "text": "Bookshelf",
       "url": "/bookshelf"
     },
